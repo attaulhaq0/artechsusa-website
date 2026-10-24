@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+private/forms-config.php
+private/runtime/
+.qa/
+test-results/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+*.log
+*.pem
+*.key
+.vercel/
