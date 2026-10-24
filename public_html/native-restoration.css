@@ -1,0 +1,284 @@
+/* Approved inner-page structure, scoped to its restored components. */
+.ar-native-service-hero > .comm-section{isolation:isolate;min-height:calc(100svh - var(--header-height) - 90px)}
+.ar-native-service-hero .si-text{z-index:2;min-height:inherit;pointer-events:none}
+.ar-native-service-hero .services-ban-txt{width:48%;max-width:700px;position:relative;pointer-events:auto;min-height:calc(100svh - var(--header-height) - 170px)}
+.ar-native-service-hero .services-ban-txt .small-head-tag{font-size:14px;margin-bottom:20px}
+.ar-native-service-hero .services-ban-txt .comm-head{margin-bottom:20px}
+.ar-native-service-hero .services-ban-img-sticky{z-index:0;pointer-events:none}
+.ar-native-service-hero .services-ban-img-wrap{height:calc(100svh - var(--header-height) - 90px)}
+.ar-native-service-hero .services-ban-img{z-index:0;right:0;bottom:0;width:55%;height:100%;display:flex;align-items:center;justify-content:center;background:#fff}
+/* The transparent raster already contains the native cyan light. Video
+   hard-light blending would erase that colour against the white backdrop. */
+.ar-native-service-hero .ar-native-service-photo{display:block;object-fit:contain;object-position:center bottom;width:100%;height:100%;border-radius:0;mix-blend-mode:normal;mask-image:none;-webkit-mask-image:none}
+.ar-native-service-hero .services-ban-img.nombm .ar-native-service-photo{mix-blend-mode:normal}
+.ar-native-service-hero .hover-cricle{z-index:1;inset:auto;left:50%;top:50%;transform:translate(-50%,-50%);width:min(65%,var(--ar-service-circle-limit,calc(100svh - var(--header-height) - 130px)));height:auto;aspect-ratio:1;opacity:1;mix-blend-mode:multiply;pointer-events:none}
+.ar-native-service-hero .hover-parent.ring{position:relative;left:auto;top:auto;width:100%;height:100%;border-radius:50%;overflow:hidden;background:radial-gradient(#fff 55%,#79efb5 80%,#fff 100%);will-change:transform}
+.ar-native-service-hero .binary-canvas{position:absolute;inset:0;width:100%;height:100%}
+
+/* Native Careers: the floating white card overlaps the wide photo slider. */
+.ar-native-careers{position:relative;min-height:830px;overflow:hidden;margin:0;padding:0;background:#fff;isolation:isolate}
+.ar-native-careers > .container{box-sizing:border-box;position:static;z-index:2;width:100%;max-width:1200px;margin-inline:auto;padding:0 15px}
+.ar-native-careers .home-intro__content{position:static;max-width:none;padding:0}
+.ar-native-careers .cv-block__content{box-sizing:border-box;position:absolute;z-index:3;top:210px;left:max(40px,calc((100% - 1200px)/2 + 15px));width:585px;padding:54px 80px;border-radius:30px;background:#fff;box-shadow:11px 11px 20px #0020bb1a}
+.ar-native-careers .ar-eyebrow{margin:0 0 18px;font-size:13px}
+.ar-native-careers .cv-block__titleHome{font-family:Inter,Arial,sans-serif;font-weight:400;font-size:48px;line-height:1.1;letter-spacing:-.025em;color:#1324bf;margin:0 0 22px}
+.ar-native-careers .cv-block__titleHome .grad-txt{display:inline;font-weight:400;line-height:inherit}
+.ar-native-careers .cv-block__textHome{font-family:Inter,Arial,sans-serif;font-size:18px;line-height:1.55;font-weight:400;color:#495377;max-width:none;margin:0 0 28px}
+.ar-native-careers .nb-btns{display:flex;flex-direction:column;align-items:flex-start;flex-wrap:wrap;gap:16px;margin:0}
+.ar-native-careers .nb-btns .learn-more{font-size:13px;letter-spacing:.035em}
+.ar-native-careers .home-intro__slider{position:absolute;top:80px;left:50%;width:1120px;max-width:none;transform:translateX(-100px);margin:0;padding:0;list-style:none;border-radius:30px;aspect-ratio:16/9;z-index:0;overflow:hidden}
+.ar-native-careers .main-slider::before{content:"";position:absolute;inset:0 0 auto;z-index:2;pointer-events:none;background:linear-gradient(180deg,#f5f5f5,transparent);height:150px;width:100%}
+.ar-native-careers .home-intro__slider > .u-hd{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 2s ease,visibility 2s;list-style:none}
+.ar-native-careers .home-intro__slider > .u-hd.is-active{opacity:1;visibility:visible}
+.ar-native-careers .u-hd__content{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 42%;border-radius:0;transform:none}
+.ar-native-careers .ar-native-scene-dots{position:absolute;z-index:3;right:40%;bottom:15%;display:flex;flex-direction:column;gap:0;align-items:center}
+.ar-native-careers .ar-native-scene-dots button{position:relative;display:block;width:24px;height:24px;background:transparent;border:0;border-radius:50%;padding:0}
+.ar-native-careers .ar-native-scene-dots button::after{content:"";position:absolute;inset:8px;border:1px solid #d9d9d9;border-radius:50%;background:transparent}
+.ar-native-careers .ar-native-scene-dots button[aria-pressed=true]::after{background:#d9d9d9}
+.ar-native-careers .ar-native-scene-dots button:focus-visible{outline:2px solid #fff;outline-offset:2px;background:#1324bf}
+
+/* The native About video moves behind the separate circular people image. */
+.ar-native-about-banner{gap:0;align-items:stretch}
+.ar-native-about-banner .about-banner-video{flex:0 0 50%}
+.ar-native-about-banner .about-video{aspect-ratio:1}
+.ar-native-about-banner .about-video-pop{overflow:hidden;border-radius:50%;isolation:isolate}
+.ar-native-about-banner .about-video-pop::after{display:none}
+.ar-native-about-banner .ar-native-about-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.ar-native-about-banner .about-banner-txt{flex:0 0 50%;min-width:0}
+.ar-native-about-banner .about-banner-txt ul{list-style:none;padding:0;margin:0;counter-reset:item}
+.ar-native-about-banner .about-video-pop:focus-visible{outline:3px solid #1324bf;outline-offset:6px}
+.ar-native-about-mark{pointer-events:none;z-index:0}
+.ar-native-about-mark .ar-native-about-glow{width:100%;height:100%;object-fit:contain}
+.ar-native-about-mark .ar-native-about-poster{display:none}
+.ar-native-about-section{position:relative;z-index:1}
+body.ar-page-05-about .abt-bnr .comm-head-wrap{position:relative;z-index:3}
+
+/* Native Careers geometry and breakpoints frame the transparent VR foreground. */
+.ar-native-home-careers{isolation:isolate;overflow:hidden}
+.ar-native-home-careers .career-img::after{z-index:0}
+.ar-native-home-careers .career-circle{z-index:0}
+.ar-native-home-careers .ar-native-home-career-photo{display:block;position:relative;z-index:1;width:100%;height:100%;object-fit:contain;object-position:center bottom;border-radius:0;mix-blend-mode:normal}
+
+/* The native industry panel fills the media plane, with a centered pointer ring. */
+body.ar-page-01-home .industry-wrap{align-items:center}
+body.ar-page-01-home .industry-swiper{aspect-ratio:842/683;height:auto}
+body.ar-page-01-home .industry-swiper .swiper-wrapper,body.ar-page-01-home .industry-swiper .swiper-slide{height:100%}
+.ar-native-industry-scene{position:relative;width:100%;height:100%;min-height:100%;isolation:isolate;overflow:hidden;border-radius:20px}
+.ar-native-industry-scene .ar-native-industry-window{position:absolute;inset:0;overflow:hidden;border-radius:20px;z-index:0}
+.ar-native-industry-scene .ar-native-industry-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center;transform:scale(1.025);animation:ar-native-photo-drift 8s ease-in-out infinite alternate}
+.ar-native-industry-scene .hover-cricle{position:absolute;inset:auto;left:44%;top:66%;width:54%;height:auto;aspect-ratio:1;transform:translateY(-50%);z-index:2;mix-blend-mode:screen;opacity:.48;pointer-events:none}
+.ar-native-industry-scene .hover-parent.ring{position:absolute;width:90%;height:90%;left:5%;top:5%;border-radius:50%;background:radial-gradient(circle,transparent 47%,#8cffc60a 52%,#8cffc66b 60%,#e1ffed38 65%,transparent 73%);will-change:transform}
+.ar-native-industry-scene .binary-canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.65;mask-image:radial-gradient(circle,transparent 46%,#000 55%,#000 64%,transparent 74%);-webkit-mask-image:radial-gradient(circle,transparent 46%,#000 55%,#000 64%,transparent 74%)}
+.ar-native-industry-scene .ar-native-industry-window::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(140deg,#1324bf0a 35%,#00142938 100%)}
+.ar-native-industry-scene[data-native-visible=false] .ar-native-industry-photo{animation-play-state:paused}
+@keyframes ar-native-photo-drift{to{transform:scale(1.08) translateY(-1%)}}
+
+@media(min-width:1025px) and (max-width:1366px){
+  .ar-native-service-hero .services-ban-txt{width:45%;max-width:560px}
+  .ar-native-careers .cv-block__content{width:585px;padding:40px 60px;top:150px}
+  .ar-native-careers .cv-block__titleHome{font-size:44px}
+  .ar-native-careers .cv-block__textHome{font-size:17px}
+}
+@media(max-width:1200px){
+  .ar-native-about-banner .about-banner-video,.ar-native-about-banner .about-banner-txt{width:100%;flex:0 0 auto}
+  .ar-native-about-banner .about-banner-txt{padding-top:80px}
+}
+@media(max-width:1024px){
+  .ar-native-service-hero > .comm-section{min-height:auto;padding-bottom:0}
+  .ar-native-service-hero .si-text{min-height:0;display:block}
+  .ar-native-service-hero .services-ban-txt{width:100%;max-width:760px;min-height:0;padding-top:0;padding-bottom:24px}
+  .ar-native-service-hero .services-ban-img-sticky{position:relative;top:auto;height:auto;width:100%;transform:none;margin-top:30px}
+  .ar-native-service-hero .services-ban-img-wrap{position:relative;top:auto;height:auto;overflow:hidden}
+  .ar-native-service-hero .services-ban-img{position:relative;right:auto;bottom:auto;width:100%;height:auto;padding-block:5%;transform:none}
+  .ar-native-service-hero .ar-native-service-photo{position:relative;height:auto;object-position:center bottom}
+  .ar-native-service-hero .hover-cricle{width:min(65%,var(--ar-service-circle-limit,65%))}
+  .ar-native-careers{min-height:780px;padding-top:0}
+  .ar-native-careers .cv-block__content{left:40px;width:490px;top:190px;padding:50px}
+  .ar-native-careers .cv-block__titleHome{font-size:42px}
+  .ar-native-careers .home-intro__slider{top:65px;left:38%;transform:none;width:960px}
+  .ar-native-careers .ar-native-scene-dots{right:45%;bottom:10%}
+}
+@media(max-width:740px){
+  .ar-native-service-hero .services-ban-txt .small-head-tag{font-size:12px;margin-bottom:18px}
+  .ar-native-service-hero .services-ban-txt .comm-head{font-size:32px;line-height:1.2;margin-bottom:20px}
+  .ar-native-service-hero .services-ban-img-sticky{margin-top:10px}
+  .ar-native-careers{padding:0 0 45px;min-height:680px;overflow:hidden;display:flex;flex-direction:column}
+  .ar-native-careers > .container{position:relative;order:1;width:calc(100% - 34px);padding:0;margin:-65px auto 0}
+  .ar-native-careers .home-intro__content{position:relative;top:auto;left:auto;max-width:none;width:100%;padding:0;border-radius:0;box-shadow:none;background:transparent;overflow:visible}
+  .ar-native-careers .cv-block__content{position:relative;top:auto;left:auto;width:100%;padding:30px 28px;border-radius:24px;box-shadow:11px 11px 20px #0020bb1a;background:#fff}
+  .ar-native-careers .cv-block__titleHome{font-size:32px;line-height:1.13;margin-bottom:20px}
+  .ar-native-careers .cv-block__textHome{font-size:15px;line-height:1.6;margin-bottom:24px}
+  .ar-native-careers .nb-btns{gap:18px}
+  .ar-native-careers .home-intro__slider{order:0;position:relative;top:auto;left:auto;transform:none;width:100%;margin:0;aspect-ratio:1.15;min-height:320px;border-radius:0 0 30px 30px}
+  .ar-native-careers .main-slider::before{display:none}
+  .ar-native-careers .u-hd__content{object-position:center}
+  .ar-native-careers .ar-native-scene-dots{position:absolute;right:7%;bottom:24%;margin:0}
+  .ar-native-about-banner .about-banner-txt ul li{font-size:16px;padding-top:20px;padding-left:40px;margin-bottom:22px}
+  .ar-native-industry-scene .hover-cricle{width:54%;left:44%;top:66%;opacity:.4}
+}
+/* Touch devices keep the binary composition gently moving without requiring a cursor. */
+@media(hover:none),(pointer:coarse){
+  .ar-native-service-hero .hover-parent.ring{animation:ar-native-service-ring-drift 16s ease-in-out infinite;animation-play-state:paused}
+  .ar-native-service-hero[data-native-visible=true] .hover-parent.ring{animation-play-state:running}
+}
+@keyframes ar-native-service-ring-drift{
+  0%,100%{transform:translate(0,0)}
+  33%{transform:translate(14px,-8px)}
+  66%{transform:translate(-10px,6px)}
+}
+@media(prefers-reduced-motion:reduce){
+  .ar-native-careers .home-intro__slider > .u-hd,.ar-native-careers .u-hd__content{transition:none;transform:none}
+  .ar-native-service-hero .hover-parent.ring{animation:none;transform:none!important}
+  .ar-native-industry-scene .ar-native-industry-photo{animation:none;transform:none}
+  .ar-native-industry-scene .hover-parent.ring{transform:none!important}
+  .ar-native-home-careers .career-circle video{visibility:hidden}
+  .ar-native-home-careers .career-circle{background:radial-gradient(ellipse at 50% 42%,#1324bf 28%,#03cbc3 46%,#8cffc6 56%,transparent 69%)}
+  .ar-native-about-mark .ar-native-about-glow{visibility:hidden}
+  .ar-native-about-mark .ar-native-about-poster{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+}
+
+/* Manifest-backed subsection photos retain their approved native media planes. */
+.ar-tech-site .ar-subsection-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 46%;border-radius:0}
+.ar-tech-site .ar-delivery .app-img.ar-subsection-delivery{height:auto;aspect-ratio:964/360;margin-bottom:0;border-radius:10px}
+.ar-tech-site .ar-delivery .ar-subsection-delivery .ar-step-photo{height:100%;aspect-ratio:964/360;object-fit:cover}
+.ar-tech-site .ar-subsection-delivery>.ar-subsection-photo,.ar-tech-site .ar-subsection-scope>.ar-subsection-photo,.ar-tech-site .ar-subsection-career>.ar-subsection-photo{position:absolute;inset:0}
+.ar-tech-site .ar-subsection-capability-icon{flex:none;max-width:100%;margin-bottom:30px}
+.ar-tech-site .ar-subsection-capability-icon img{object-fit:contain}
+.ar-tech-site .ar-native-capability-symbol{display:block;max-width:100%;max-height:100%;background-position:center;background-size:contain;background-repeat:no-repeat}
+.ar-tech-site .ar-subsection-industry{aspect-ratio:842/683;height:auto;min-height:0}
+.ar-tech-site .ar-subsection-industry .ar-native-industry-window{border-radius:inherit}
+.ar-tech-site .ar-subsection-resource{width:100%;height:100%;border-radius:inherit}
+.ar-tech-site .ar-resource-card>a,.ar-tech-site .success-card .success-img{position:relative}
+.ar-tech-site .ar-resource-card>a>.ar-subsection-resource,.ar-tech-site .success-card .success-img>.ar-subsection-resource{position:absolute;inset:0}
+.ar-tech-site .ar-resource-card[data-resource-group=insights] .ar-subsection-resource::after{background:radial-gradient(72.58% 73.93% at 54.68% 47.5%,transparent 42%,rgba(140,255,198,.64) 100%)}
+.ar-tech-site .ar-subsection-scope,.ar-tech-site .ar-subsection-career{width:100%;aspect-ratio:3/2}
+.ar-tech-site .ar-career-path>.ar-subsection-career{padding:0;border-radius:0}
+@media(max-width:740px){
+  .ar-tech-site .ar-subsection-capability-icon{margin-bottom:24px}
+  .ar-tech-site .ar-subsection-industry,.ar-tech-site .ar-subsection-industry .ar-native-industry-window{border-radius:13px}
+}
+
+/* Approved Careers and About photographic compositions. */
+.ar-tech-site .ar-native-careers .ar-native-career-intro-media{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;border-radius:0;background:#fff}
+.ar-tech-site .ar-native-career-intro-media::after,.ar-tech-site .ar-native-about-banner-media::after,.ar-tech-site .ar-native-career-story-media::after,.ar-tech-site .ar-native-career-path-media::after,.ar-tech-site .ar-native-career-conversation-media::after,.ar-tech-site .ar-native-career-closing-media::after{display:none}
+.ar-tech-site .ar-native-about-banner .ar-native-about-banner-media{width:100%;height:100%;aspect-ratio:auto;border-radius:inherit;background:#fff}
+.ar-tech-site .ar-native-about-banner .ar-native-about-photo{width:100%;height:100%;object-fit:cover;object-position:center}
+
+/* Native photographic story: a pale upper field, offset photo and broad caption. */
+.ar-tech-site .ar-native-career-story{position:relative;isolation:isolate;overflow:hidden;background:#fff;padding:0;margin:0}
+.ar-tech-site .ar-native-career-story::before{content:"";position:absolute;inset:0 0 auto;height:68%;background:#f3f3f3;z-index:0;pointer-events:none}
+.ar-tech-site .ar-native-career-story::after{content:"";position:absolute;inset:28% 0 auto;height:1px;background:linear-gradient(10deg,#1324bf,#00ffbe);z-index:0;pointer-events:none}
+.ar-tech-site .ar-native-career-story-track{position:relative;z-index:1;display:flex;align-items:stretch;width:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;overscroll-behavior-x:contain}
+.ar-tech-site .ar-native-career-story-track::-webkit-scrollbar{display:none}
+.ar-tech-site .ar-native-career-story-track:focus-visible{outline:2px solid var(--ar-blue,#1324bf);outline-offset:-4px}
+.ar-tech-site .ar-native-career-story-panel{position:relative;display:flex;align-items:center;flex:0 0 100%;min-width:0;height:min(80vw,800px);min-height:540px;scroll-snap-align:start;scroll-snap-stop:always;margin:0;padding:0;background:transparent}
+.ar-tech-site .ar-native-career-story-image{position:absolute;z-index:1;top:50%;right:50%;width:65%;max-width:830px;aspect-ratio:794/553;height:auto;transform:translate(100px,-50%);border-radius:30px;overflow:hidden;box-shadow:11px 11px 20px #0020bb1a}
+.ar-tech-site .ar-native-career-story-image::after{display:none}
+.ar-tech-site .ar-native-career-story-media{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;border-radius:inherit;background:#fff}
+.ar-tech-site .ar-native-career-story-media .ar-career-photo{width:100%;height:100%;object-fit:cover;object-position:center}
+.ar-tech-site .ar-native-career-story .slide__content{position:relative;z-index:1;left:50%;max-width:480px;width:calc(35% - 20px);margin:0 0 0 120px;padding:20px 35px;font-family:Inter,Arial,sans-serif;font-size:40px;line-height:1.2;font-weight:300;letter-spacing:-.02em;color:#001429;overflow:visible;overflow-wrap:break-word;text-wrap:pretty}
+.ar-tech-site .ar-native-career-story .slide__content::after{content:"";display:block;width:87px;height:8px;margin-top:24px;background:url('/assets/c519c5ba55667d.svg') center/contain no-repeat}
+.ar-tech-site .ar-native-career-story-controls{position:absolute;z-index:2;right:max(20px,calc((100% - 1360px)/2));bottom:34px;display:flex;align-items:center;gap:8px}
+.ar-tech-site .ar-native-career-story-controls button{display:flex;align-items:center;justify-content:center;position:relative;width:44px;height:44px;flex:none;margin:0;padding:0;border:1px solid #1324bf24;border-radius:50%;background:#fff;color:#1324bf;box-shadow:none;transition:background .18s ease,border-color .18s ease}
+.ar-tech-site .ar-native-career-story-controls button::before,.ar-tech-site .ar-native-career-story-controls button::after{content:none}
+.ar-tech-site .ar-native-career-story-controls button:hover{background:#f5f6ff;border-color:#1324bf}
+.ar-tech-site .ar-native-career-story-controls button span{display:block;width:9px;height:9px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateX(-2px) rotate(-45deg)}
+.ar-tech-site .ar-native-career-story-controls .ar-native-career-story-prev span{transform:translateX(2px) rotate(135deg)}
+.ar-tech-site .ar-native-career-story-progress{min-width:47px;font-family:Inter,Arial,sans-serif;font-size:13px;line-height:1.4;font-variant-numeric:tabular-nums;text-align:center;color:#495377}
+
+/* Existing career-path copy follows each route-specific technical photograph. */
+.ar-tech-site .ar-native-career-paths{align-items:stretch}
+.ar-tech-site .ar-native-career-path>.ar-native-career-path-media{position:relative;width:100%;padding:0;margin:0;aspect-ratio:1332/762;border-radius:0;background:#fff;flex:none}
+.ar-tech-site .ar-native-career-path .ar-native-career-path-media .ar-career-photo{width:100%;height:100%;object-fit:contain;object-position:center}
+.ar-tech-site .ar-native-career-path>.ar-native-career-path-copy{display:flex;flex-direction:column;flex:1;min-width:0;padding:30px}
+.ar-tech-site .ar-native-career-path-copy .learn-more{margin-top:auto;align-self:flex-start}
+
+/* Native get-onboard split, using the final caller-supplied conversation copy. */
+.ar-tech-site .ar-native-career-conversation{position:relative;margin:0;padding:100px 0;background:#fff}
+.ar-tech-site .ar-native-career-conversation .get-onboard__container{position:relative;display:flex;align-items:center;gap:0}
+.ar-tech-site .ar-native-career-conversation .get-onboard__content{display:flex;flex-direction:column;width:41.66667%;min-width:0;padding-right:30px}
+.ar-tech-site .ar-native-career-conversation .get-onboard__subtitle{margin:0 0 20px;font-family:Inter,Arial,sans-serif;font-size:13px;font-weight:600;line-height:1.6;letter-spacing:.11em;color:#1324bf;text-transform:uppercase}
+.ar-tech-site .ar-native-career-conversation .get-onboard__title{margin:0 0 28px;padding:.04em 0 .1em;font-family:Inter,Arial,sans-serif;font-size:54px;font-weight:300;line-height:1.12;letter-spacing:-.025em;color:#1324bf;overflow:visible;white-space:normal;overflow-wrap:break-word;text-wrap:pretty}
+.ar-tech-site .ar-native-career-conversation .get-onboard__text{margin:0 0 30px;font-size:18px;line-height:1.6;color:#495377}
+.ar-tech-site .ar-native-career-conversation .get-onboard__btn{align-self:flex-start;max-width:100%;margin:0}
+.ar-tech-site .ar-native-career-conversation-image{position:relative;width:58.33333%;aspect-ratio:867/520;min-width:0;border-radius:30px;overflow:hidden;box-shadow:11px 11px 20px #0020bb1a}
+.ar-tech-site .ar-native-career-conversation-image::after{display:none}
+.ar-tech-site .ar-native-career-conversation-media{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;border-radius:inherit;background:#fff}
+.ar-tech-site .ar-native-career-conversation .ar-career-photo{object-position:center}
+
+/* Native closing: wide left photo, white copy card overlapping on the right. */
+.ar-tech-site .ar-native-career-closing{position:relative;overflow:hidden;padding:100px 0 180px;margin:0;background:#fff}
+.ar-tech-site .ar-native-career-closing>.container{position:relative;display:block;min-height:530px}
+.ar-tech-site .ar-native-career-closing-image{position:relative;left:-150px;width:920px;max-width:78vw;aspect-ratio:890/529;height:auto;min-height:0;border-radius:30px;overflow:hidden;box-shadow:11px 11px 20px #0020bb1a}
+.ar-tech-site .ar-native-career-closing-image::after{display:none}
+.ar-tech-site .ar-native-career-closing-media{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;border-radius:inherit;background:#fff}
+.ar-tech-site .ar-native-career-closing .ar-career-photo{object-position:center}
+.ar-tech-site .ar-native-career-closing .opportunities__content{position:absolute;z-index:2;left:50%;bottom:-60px;width:585px;max-width:50%;padding:60px;border-radius:30px;background:#fff;box-shadow:11px 11px 20px #0020bb1a}
+.ar-tech-site .ar-native-career-closing .opportunities__title{margin:0 0 24px;padding:.04em 0 .1em;font-family:Inter,Arial,sans-serif;font-size:48px;font-weight:300;line-height:1.12;letter-spacing:-.025em;color:#1324bf;overflow:visible;overflow-wrap:break-word;text-wrap:pretty}
+.ar-tech-site .ar-native-career-closing .opportunities__text{margin:0 0 28px;font-size:18px;line-height:1.6;color:#495377}
+.ar-tech-site .ar-native-career-closing .button{max-width:100%;position:relative;margin:0}
+
+@media(max-width:1280px){
+  .ar-tech-site .ar-native-career-story .slide__content{font-size:32px;padding:15px 25px;margin-left:100px}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__title{font-size:44px}
+  .ar-tech-site .ar-native-career-closing .opportunities__content{left:42%;max-width:58%;padding:42px}
+  .ar-tech-site .ar-native-career-closing .opportunities__title{font-size:42px}
+}
+@media(max-width:1024px){
+  .ar-tech-site .ar-native-career-path>.ar-native-career-path-copy{padding:24px}
+  .ar-tech-site .ar-native-career-conversation{padding:75px 0}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__title{font-size:38px}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__text{font-size:17px}
+  .ar-tech-site .ar-native-career-closing{padding:75px 0 95px}
+  .ar-tech-site .ar-native-career-closing>.container{min-height:0}
+  .ar-tech-site .ar-native-career-closing-image{left:-70px;max-width:85vw}
+  .ar-tech-site .ar-native-career-closing .opportunities__content{position:relative;left:auto;bottom:auto;max-width:62%;margin:-170px 0 0 auto}
+}
+@media(max-width:768px){
+  .ar-tech-site .ar-native-career-story::before{height:100%;background:#f5f5f5}
+  .ar-tech-site .ar-native-career-story::after{display:none}
+  .ar-tech-site .ar-native-career-story-panel{display:flex;flex-direction:column;align-items:stretch;height:auto;min-height:0;padding:42px 0 100px}
+  .ar-tech-site .ar-native-career-story-image{order:2;position:relative;top:auto;right:auto;left:15px;width:80%;max-width:none;aspect-ratio:794/553;transform:none;border-radius:24px;flex:none}
+  .ar-tech-site .ar-native-career-story .slide__content{order:1;left:auto;width:80%;max-width:none;margin:0 0 26px;padding:0 15px;font-size:24px;line-height:1.25}
+  .ar-tech-site .ar-native-career-story .slide__content::after{display:none}
+  .ar-tech-site .ar-native-career-story-controls{bottom:28px;right:15px}
+  .ar-tech-site .ar-native-career-conversation{padding:55px 0;background:#f5f5f5}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__container{display:flex;flex-direction:column;align-items:stretch;gap:30px}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__content{width:100%;padding-right:0}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__title{font-size:34px;margin-bottom:22px}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__text{font-size:16px;line-height:1.6;margin-bottom:26px}
+  .ar-tech-site .ar-native-career-conversation-image{width:100%;border-radius:16px}
+  .ar-tech-site .ar-native-career-closing{padding:55px 0 75px}
+  .ar-tech-site .ar-native-career-closing>.container{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;padding-bottom:75px}
+  .ar-tech-site .ar-native-career-closing-image{grid-column:1;grid-row:1;order:0;left:0;width:100%;max-width:none;height:100%;aspect-ratio:auto;min-height:330px;border-radius:16px 0 0 16px;box-shadow:none}
+  .ar-tech-site .ar-native-career-closing .opportunities__content{grid-column:2;grid-row:1;position:static;width:auto;max-width:none;margin:0;padding:24px 20px;border-radius:0;box-shadow:none}
+  .ar-tech-site .ar-native-career-closing .opportunities__title{font-size:30px;line-height:1.18;margin-bottom:18px}
+  .ar-tech-site .ar-native-career-closing .opportunities__text{font-size:15px;line-height:1.6;margin-bottom:0}
+  .ar-tech-site .ar-native-career-closing .button{position:absolute;inset:auto 15px 0;display:flex;justify-content:center;margin:0;width:calc(100% - 30px);max-width:none}
+}
+@media(max-width:560px){
+  .ar-tech-site .ar-native-career-story .slide__content{font-size:22px}
+  .ar-tech-site .ar-native-career-conversation .get-onboard__title{font-size:30px}
+  .ar-tech-site .ar-native-career-closing>.container{display:flex;flex-direction:column;padding-bottom:0}
+  .ar-tech-site .ar-native-career-closing-image{height:auto;aspect-ratio:890/529;min-height:0;border-radius:24px}
+  .ar-tech-site .ar-native-career-closing .opportunities__content{position:relative;order:1;width:calc(100% - 24px);margin:-35px auto 0;padding:30px 25px;border-radius:24px;box-shadow:11px 11px 20px #0020bb1a}
+  .ar-tech-site .ar-native-career-closing .opportunities__text{margin-bottom:24px}
+  .ar-tech-site .ar-native-career-closing .button{position:relative;inset:auto;display:inline-flex;justify-content:flex-start;width:auto;max-width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  .ar-tech-site .ar-native-career-story-track{scroll-behavior:auto}
+  .ar-tech-site .ar-native-career-story-controls button{transition:none}
+}
+@media(forced-colors:active){
+  .ar-tech-site .ar-native-career-story-controls button{border-color:ButtonText;background:ButtonFace;color:ButtonText}
+  .ar-tech-site .ar-native-career-story-track:focus-visible{outline-color:Highlight}
+}
+
+/* Align the native industry icons with their service context. */
+.ar-tech-site .ar-industry-offers{display:grid;gap:18px;margin:28px 0;padding:0;list-style:none}
+.ar-tech-site .ar-industry-offers>li{display:flex;align-items:center;gap:16px;min-width:0;margin:0;padding:0;line-height:1.5}
+.ar-tech-site .ar-industry-offers .ar-subsection-capability-icon{width:52px;height:52px;margin:0;flex:0 0 52px}
+.ar-tech-site .ar-industry-offers .ar-subsection-capability-icon img{width:100%;height:100%}
+.ar-tech-site .ar-industry-offers .ar-native-capability-symbol{width:100%!important;height:100%!important}
+.ar-tech-site .ar-industry-offers>li>span{min-width:0;overflow-wrap:break-word}
+@media(max-width:740px){.ar-tech-site .ar-industry-offers{gap:16px}.ar-tech-site .ar-industry-offers .ar-subsection-capability-icon{width:44px;height:44px;flex-basis:44px}}
