@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="470" viewBox="0 0 470 470" fill="none" role="img" aria-labelledby="ep-title ep-description">
+  <title id="ep-title">Connected enterprise platforms</title>
+  <desc id="ep-description">Luminous business-process, customer-workflow and data modules exchange information through a layered integration platform.</desc>
+  <defs>
+    <radialGradient id="ep-bloom">
+      <stop stop-color="#335DFF" stop-opacity=".3"/>
+      <stop offset=".55" stop-color="#1324BF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#1324BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ep-mint-bloom">
+      <stop stop-color="#8CFFC6" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#8CFFC6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ep-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E7F3FF" stop-opacity=".2"/>
+      <stop offset=".4" stop-color="#496DFF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#001429" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="ep-top" x1=".15" y1="0" x2=".85" y2="1">
+      <stop stop-color="#597CFF" stop-opacity=".86"/>
+      <stop offset=".55" stop-color="#172DC4" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#031F56" stop-opacity=".98"/>
+    </linearGradient>
+    <linearGradient id="ep-side" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#294ED4" stop-opacity=".64"/>
+      <stop offset="1" stop-color="#001429" stop-opacity=".94"/>
+    </linearGradient>
+    <linearGradient id="ep-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ECF5FF" stop-opacity=".8"/>
+      <stop offset=".45" stop-color="#93B1FF" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#8CFFC6" stop-opacity=".66"/>
+    </linearGradient>
+    <linearGradient id="ep-stream" x1="75" y1="140" x2="370" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8CFFC6" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#ECF5FF" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#8CFFC6" stop-opacity=".36"/>
+    </linearGradient>
+    <filter id="ep-soft-light" x="-150%" y="-150%" width="400%" height="400%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="ep-module-shadow" x="-40%" y="-40%" width="180%" height="210%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="11" flood-color="#001429" flood-opacity=".65"/>
+    </filter>
+  </defs>
+  <style>
+    .ep-module { animation: ep-float 7.2s ease-in-out infinite; }
+    .ep-crm { animation-delay: -2.4s; }
+    .ep-data { animation-delay: -4.8s; }
+    .ep-hub { animation: ep-hub-float 8.8s ease-in-out infinite; }
+    .ep-packet { stroke: #8cffc6; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 2 98; animation: ep-transfer 6.4s linear infinite; }
+    .ep-packet-two { animation-delay: -2.6s; animation-duration: 7.8s; }
+    .ep-packet-three { animation-delay: -4.2s; animation-duration: 8.4s; }
+    .ep-status { animation: ep-status-light 4.8s ease-in-out infinite; }
+    .ep-status-two { animation-delay: -1.6s; }
+    .ep-status-three { animation-delay: -3.2s; }
+    .ep-aura { animation: ep-breathe 8.8s ease-in-out infinite; }
+    .ep-orbit-light { stroke-dasharray: 28 370; animation: ep-orbit 24s linear infinite; }
+    @keyframes ep-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes ep-hub-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes ep-transfer { to { stroke-dashoffset: -100; } }
+    @keyframes ep-status-light { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
+    @keyframes ep-breathe { 0%, 100% { opacity: .64; } 50% { opacity: 1; } }
+    @keyframes ep-orbit { to { stroke-dashoffset: -398; } }
+    @media (prefers-reduced-motion: reduce) {
+      .ep-module, .ep-hub, .ep-packet, .ep-status, .ep-aura, .ep-orbit-light { animation: none; }
+    }
+  </style>
+
+  <circle cx="238" cy="245" r="213" fill="url(#ep-bloom)" class="ep-aura"/>
+  <ellipse cx="240" cy="264" rx="183" ry="119" transform="rotate(-19 240 264)" stroke="#95B4FF" stroke-opacity=".13" stroke-width=".8"/>
+  <path d="M77 311C42 248 97 162 188 132C293 96 386 123 415 197" stroke="#547BFF" stroke-opacity=".24" stroke-width="1"/>
+  <path d="M77 311C42 248 97 162 188 132C293 96 386 123 415 197" stroke="#8CFFC6" stroke-opacity=".54" stroke-width="1.5" class="ep-orbit-light"/>
+  <path d="M123 384C193 410 302 395 366 342" stroke="#95B4FF" stroke-opacity=".23" stroke-width="1"/>
+  <circle cx="402" cy="238" r="2" fill="#8CFFC6" fill-opacity=".68"/>
+  <circle cx="74" cy="228" r="1.5" fill="#ECF5FF" fill-opacity=".66"/>
+  <circle cx="169" cy="112" r="1.5" fill="#ECF5FF" fill-opacity=".54"/>
+  <circle cx="338" cy="361" r="2" fill="#95B4FF" fill-opacity=".7"/>
+
+  <g stroke-linecap="round">
+    <path d="M114 157C151 175 164 219 224 255C260 277 302 245 345 191" stroke="url(#ep-stream)" stroke-width="1.4"/>
+    <path d="M112 316C151 321 180 293 227 272C264 256 301 224 345 191" stroke="url(#ep-stream)" stroke-width="1.4"/>
+    <path d="M347 158C317 130 289 105 240 100C182 95 131 115 113 143" stroke="#6C91FF" stroke-opacity=".3" stroke-width="1.2"/>
+    <path d="M114 157C151 175 164 219 224 255C260 277 302 245 345 191" pathLength="100" class="ep-packet"/>
+    <path d="M112 316C151 321 180 293 227 272C264 256 301 224 345 191" pathLength="100" class="ep-packet ep-packet-two"/>
+    <path d="M347 158C317 130 289 105 240 100C182 95 131 115 113 143" pathLength="100" class="ep-packet ep-packet-three"/>
+  </g>
+
+  <!-- A business-process platform with layered records and a reviewed state. -->
+  <g class="ep-module ep-erp">
+    <ellipse cx="111" cy="177" rx="66" ry="35" fill="url(#ep-mint-bloom)" opacity=".6"/>
+    <g filter="url(#ep-module-shadow)">
+      <path d="M50 154L108 186L170 154V169L112 202Q108 204 104 201L54 174Q50 172 50 167Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".25"/>
+      <path d="M51 154L104 123Q108 120 113 123L169 154L113 187Q108 190 104 187Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width=".8"/>
+      <path d="M50 135L108 167L170 135V150L112 183Q108 186 104 183L54 156Q50 154 50 150Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".26"/>
+      <path d="M53 130L104 101Q108 98 113 101L167 131Q172 134 167 137L113 168Q108 171 104 168L53 139Q46 135 53 130Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width="1.2"/>
+      <path d="M53 135L108 166L165 134" stroke="#EEF6FF" stroke-opacity=".2"/>
+      <g transform="matrix(.86 .49 -.86 .49 109 127)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="-23" y="-21" width="44" height="36" rx="4" stroke="#ECF5FF" stroke-opacity=".8"/>
+        <path d="M-16-12H8M-16-3H1M-16 6H-2" stroke="#ECF5FF" stroke-opacity=".74"/>
+        <rect x="5" y="0" width="20" height="18" rx="4" fill="#173D66" stroke="#8CFFC6"/>
+        <path d="M10 9L14 13L21 5" stroke="#8CFFC6"/>
+      </g>
+      <path d="M61 163L86 177" stroke="#8CFFC6" stroke-opacity=".76" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="155" cy="151" r="2.3" fill="#8CFFC6" class="ep-status"/>
+    </g>
+  </g>
+
+  <!-- A customer-workflow platform uses paired conversation and exchange motifs. -->
+  <g class="ep-module ep-crm">
+    <ellipse cx="345" cy="219" rx="64" ry="31" fill="url(#ep-mint-bloom)" opacity=".42"/>
+    <g filter="url(#ep-module-shadow)">
+      <path d="M286 176L345 210L405 176V195L349 228Q345 231 341 228L290 199Q286 197 286 193Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".28"/>
+      <path d="M286 186L341 154Q345 151 350 154L405 186L350 219Q345 222 341 219Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width=".8"/>
+      <path d="M286 163L345 197L405 163V182L350 214Q345 217 341 214L290 185Q286 183 286 179Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".3"/>
+      <path d="M290 158L341 128Q345 125 350 128L401 158Q409 162 401 167L350 197Q345 200 341 197L290 168Q282 163 290 158Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width="1.2"/>
+      <g transform="matrix(.86 .49 -.86 .49 345 159)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-23-21H7Q11-21 11-17V0Q11 4 7 4H-8L-16 11V4H-23Q-27 4-27 0V-17Q-27-21-23-21Z" fill="#213D80" fill-opacity=".64" stroke="#ECF5FF" stroke-opacity=".86"/>
+        <path d="M-19-12H3M-19-4H-5" stroke="#ECF5FF" stroke-opacity=".64"/>
+        <path d="M4-7H22Q26-7 26-3V12Q26 16 22 16H16V23L8 16H4Q0 16 0 12V-3Q0-7 4-7Z" fill="#153A5F" stroke="#8CFFC6"/>
+        <path d="M8 4H18M8 10H14" stroke="#8CFFC6"/>
+      </g>
+      <path d="M353 205L381 189" stroke="#8CFFC6" stroke-opacity=".74" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="296" cy="185" r="2.3" fill="#8CFFC6" class="ep-status ep-status-two"/>
+    </g>
+  </g>
+
+  <!-- The central integration platform has a unique interlocking, luminous core. -->
+  <g class="ep-hub">
+    <ellipse cx="233" cy="326" rx="103" ry="49" fill="url(#ep-mint-bloom)" opacity=".64" class="ep-aura"/>
+    <g filter="url(#ep-module-shadow)">
+      <path d="M150 289L233 337L315 289V305L239 350Q233 353 227 350L156 309Q150 306 150 302Z" fill="url(#ep-side)" stroke="#6C91FF" stroke-opacity=".35"/>
+      <path d="M155 284L227 243Q233 239 239 243L310 284Q320 290 310 295L239 337Q233 341 227 337L155 295Q145 289 155 284Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width=".9"/>
+      <path d="M150 272L233 320L315 272V288L239 333Q233 336 227 333L156 292Q150 289 150 285Z" fill="url(#ep-side)" stroke="#6C91FF" stroke-opacity=".35"/>
+      <path d="M155 267L227 226Q233 222 239 226L310 267Q320 273 310 278L239 320Q233 324 227 320L155 278Q145 272 155 267Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width=".9"/>
+      <path d="M150 253L233 301L315 253V270L239 314Q233 318 227 314L156 273Q150 270 150 266Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".46"/>
+      <path d="M155 248L227 207Q233 203 239 207L310 248Q320 254 310 259L239 301Q233 305 227 301L155 259Q145 253 155 248Z" fill="url(#ep-top)" stroke="url(#ep-edge)" stroke-width="1.4"/>
+      <path d="M165 253L230 290Q233 292 236 290L303 251" stroke="#8CFFC6" stroke-opacity=".32" stroke-width="1.2"/>
+      <path d="M170 241L230 207Q233 205 236 207L296 242" stroke="#D2E3FF" stroke-opacity=".43"/>
+      <g transform="matrix(.88 .5 -.88 .5 232 251)" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M-7-17H-18Q-30-17-30-5V4Q-30 15-18 15H-7" stroke="#8CFFC6" stroke-width="6" opacity=".26" filter="url(#ep-soft-light)"/>
+        <path d="M7-17H18Q30-17 30-5V4Q30 15 18 15H7" stroke="#ECF5FF" stroke-width="6" opacity=".26" filter="url(#ep-soft-light)"/>
+        <path d="M-7-17H-18Q-30-17-30-5V4Q-30 15-18 15H-7" stroke="#8CFFC6" stroke-width="3.4"/>
+        <path d="M7-17H18Q30-17 30-5V4Q30 15 18 15H7" stroke="#ECF5FF" stroke-width="3.4"/>
+        <path d="M-15-1H15M9-7L15-1L9 5M-9 9L-15 3L-9-3" stroke="#ECF5FF" stroke-width="2.5"/>
+      </g>
+      <path d="M159 283L186 299M282 298L307 283" stroke="#8CFFC6" stroke-width="2.2" stroke-linecap="round" opacity=".65"/>
+      <circle cx="233" cy="320" r="2.8" fill="#8CFFC6" class="ep-status"/>
+    </g>
+  </g>
+
+  <!-- A data module expresses synchronized storage without labels or metrics. -->
+  <g class="ep-module ep-data">
+    <ellipse cx="112" cy="354" rx="63" ry="30" fill="url(#ep-mint-bloom)" opacity=".46"/>
+    <g filter="url(#ep-module-shadow)">
+      <path d="M54 322L111 355L171 321V337L115 370Q111 373 107 370L58 342Q54 340 54 337Z" fill="url(#ep-side)" stroke="#7597F5" stroke-opacity=".24"/>
+      <path d="M58 317L107 289Q111 286 115 289L167 318Q175 322 167 327L115 357Q111 360 107 357L58 329Q50 325 58 317Z" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width="1.1"/>
+      <path d="M83 282V316C83 324 97 330 113 330C129 330 143 324 143 316V282" fill="url(#ep-side)" stroke="#B8D1FF" stroke-opacity=".55" stroke-width="1.2"/>
+      <ellipse cx="113" cy="282" rx="30" ry="13" fill="url(#ep-glass)" stroke="url(#ep-edge)" stroke-width="1.3"/>
+      <ellipse cx="113" cy="282" rx="20" ry="8" stroke="#ECF5FF" stroke-opacity=".3" stroke-width=".8"/>
+      <path d="M83 294C83 302 97 308 113 308C129 308 143 302 143 294M83 305C83 313 97 319 113 319C129 319 143 313 143 305" stroke="#D6E6FF" stroke-opacity=".48" stroke-width="1.1"/>
+      <path d="M89 311C94 315 102 317 110 318M89 300C94 304 102 306 110 307" stroke="#8CFFC6" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="129" cy="321" r="2" fill="#8CFFC6" class="ep-status ep-status-three"/>
+      <path d="M123 348L151 332" stroke="#8CFFC6" stroke-opacity=".66" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
