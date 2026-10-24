@@ -1,0 +1,45 @@
+/* Source composition restored without adding a second layout column for review notes. */
+#connected-benefit-story > .artechsplatform-wrapper{width:100%;max-width:none;flex:0 0 100%;min-width:0;margin:0;padding-left:20px;padding-right:20px;box-sizing:border-box}
+#connected-benefit-story .artechsplatform-header{width:100%;box-sizing:border-box}
+#connected-benefit-story .artechsplatform-grid .feature-card{min-width:0}
+@media(min-width:1025px){#connected-benefit-story .artechsplatform-cards-block{flex:0 0 44.5%;min-width:0}#connected-benefit-story .artechsplatform-stats-block{flex:1;min-width:0}}
+/* The recruitment header uses its source content height. A forced tall header
+   left a transparent hit area over the job actions beneath it. */
+@media(min-width:641px){body[data-source-pattern=jobdetail] .app-header,body[data-source-pattern=application] .app-header{min-height:0}}
+#connected-benefit-story > .replica-label{display:none}
+#connected-benefit-story .artechsplatform-wrapper > .replica-label{display:block;width:100%;margin:24px 0 0!important;text-align:left}
+#connected-benefit-story .stat-card .stat-text{width:100%;text-align:center}
+#connected-benefit-story .stat-card .services-num{font-variant-numeric:tabular-nums}
+/* Keep the native portrait/video composition visible through loading and motion changes. */
+.services-ban-img>.hero-video-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;mix-blend-mode:hard-light;pointer-events:none;display:block}
+.services-ban-img[data-hero-media-state=poster]>video{opacity:0}
+.services-ban-img[data-hero-media-state=video]>.hero-video-poster{visibility:hidden}
+#connected-benefit-story .services-num .counter-num-artechsplatform{display:inline-flex;gap:4px;line-height:1.5}
+#connected-benefit-story .services-num .digit{display:block;position:relative;width:.65em;height:1.5em;overflow:hidden}
+#connected-benefit-story .services-num .digit-inner{display:block;will-change:transform}
+#connected-benefit-story .services-num .digit-inner > span{display:block;height:1.5em;line-height:1.5}
+button.circPrev,button.circNext{appearance:none;-webkit-appearance:none;border:0;padding:0;box-shadow:none;line-height:1;cursor:pointer}
+.preview-testimonials .testimonial-controls{display:flex;align-items:center;justify-content:center;gap:24px;width:100%}
+.reference-partner-section .reference-composition-note{text-align:left!important;max-width:none;margin:24px 0 0!important}
+#home-faq .container{width:calc(100% - 40px);max-width:1065px;margin:0 auto;padding:0;box-sizing:border-box}
+#home-faq .comm-head-wrap{width:100%;max-width:none;text-align:center;margin:0 0 40px}
+#home-faq .comm-head{text-align:center;font-size:36px;line-height:1.25;margin:0;font-weight:600}
+#home-faq .acc-container{width:100%;max-width:none;margin:0 auto}
+#home-faq .accordion{appearance:none;-webkit-appearance:none;display:block;width:100%;background:transparent;text-align:left;font-family:Aileron,'Public Sans',sans-serif;font-size:22px;font-weight:600;line-height:1.4}
+#home-faq .panel{margin:0;padding:0 70px 28px 36px;color:#495377}
+#home-faq .panel p{font-size:18px;line-height:1.65;margin:0 0 14px}
+#home-faq .panel .learn-more{display:inline-flex}
+@media(max-width:640px){
+  body[data-source-pattern=jobdetail] .app-header,body[data-source-pattern=application] .app-header{box-sizing:border-box}
+  #connected-benefit-story .artechsplatform-wrapper{padding-left:20px;padding-right:20px}
+  #connected-benefit-story .artechsplatform-grid{grid-template-columns:minmax(0,1fr)}
+  #connected-benefit-story .artechsplatform-grid .grid-column{display:contents}
+  #connected-benefit-story .grid-column:first-child .feature-card:nth-child(1){order:1}
+  #connected-benefit-story .grid-column:first-child .feature-card:nth-child(2){order:3}
+  #connected-benefit-story .grid-column:nth-child(2) .feature-card:nth-child(1){order:2}
+  #connected-benefit-story .grid-column:nth-child(2) .feature-card:nth-child(2){order:4}
+  #home-faq .comm-head{font-size:28px;line-height:1.25}
+  #home-faq .accordion{font-size:18px;line-height:1.45;padding:24px 52px 24px 20px}
+  #home-faq .panel{padding:0 52px 24px 20px}
+  #home-faq .panel p{font-size:16px;line-height:1.65}
+}

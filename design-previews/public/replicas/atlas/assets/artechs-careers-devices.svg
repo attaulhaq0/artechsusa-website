@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1031" height="1142" viewBox="0 0 1031 1142" role="img" aria-labelledby="title desc">
+  <title id="title">Artechs USA Careers</title>
+  <desc id="desc">Two original device illustrations show career paths and résumé guidance for cloud, platform and data engineering.</desc>
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34383b"/><stop offset=".15" stop-color="#969b9e"/><stop offset=".34" stop-color="#3d4246"/><stop offset=".84" stop-color="#1c2024"/><stop offset="1" stop-color="#707578"/></linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9cdd0"/><stop offset=".22" stop-color="#60676c"/><stop offset=".64" stop-color="#b1b6ba"/><stop offset="1" stop-color="#363c40"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#314ea6"/><stop offset=".54" stop-color="#034ba5"/><stop offset="1" stop-color="#0a78db"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".17"/><stop offset=".45" stop-color="#fff" stop-opacity=".03"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-20%" width="170%" height="150%"><feDropShadow dx="4" dy="9" stdDeviation="10" flood-color="#061428" flood-opacity=".20"/></filter>
+    <filter id="card-shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#192d50" flood-opacity=".12"/></filter>
+    <clipPath id="back-screen"><rect x="23" y="21" width="334" height="884" rx="44"/></clipPath>
+    <clipPath id="front-screen"><rect x="21" y="20" width="354" height="914" rx="43"/></clipPath>
+    <symbol id="a-mark" viewBox="0 0 48 48"><path d="M24 4 3 43h12l9-18 9 18h12L24 4Z" fill="currentColor"/><path d="M18 37h13l-4-8h-5l-4 8Z" fill="currentColor"/></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+  <g transform="matrix(.9 .035 .23 1 16 0)">
+    <rect x="0" y="9" width="374" height="929" rx="58" fill="url(#metal)"/>
+    <rect x="10" y="4" width="366" height="924" rx="55" fill="#23292e" stroke="url(#rim)" stroke-width="3"/>
+    <rect x="19" y="15" width="342" height="896" rx="49" fill="#090e14"/>
+    <g clip-path="url(#back-screen)">
+      <rect x="23" y="21" width="334" height="884" fill="url(#blue)"/>
+      <path d="M23 21h334L23 728Z" fill="url(#shine)"/>
+      <g transform="translate(90 330)" fill="#fff">
+        <use href="#a-mark" x="54" y="0" width="70" height="70" style="color:#fff"/>
+        <text x="89" y="110" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" letter-spacing="1.5">ARTECHS USA</text>
+        <text x="89" y="146" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="middle" letter-spacing="4">CAREERS</text>
+        <path d="M23 181h133" stroke="#bedfff" stroke-opacity=".55"/>
+        <text x="89" y="209" font-family="Arial,sans-serif" font-size="11" text-anchor="middle" letter-spacing="2">YOUR NEXT CHAPTER</text>
+      </g>
+      <text x="190" y="835" fill="#d4e8ff" font-family="Arial,sans-serif" font-size="13" text-anchor="middle">Your experience. A clear next step.</text>
+    </g>
+    <path d="M4 152v64m0 39v103" stroke="#adb2b6" stroke-width="7" stroke-linecap="round"/><path d="M2 154v60m0 43v96" stroke="#343a3e" stroke-width="3" stroke-linecap="round"/>
+    <path d="M53 9h255" stroke="#d3d8da" stroke-width="1.6" opacity=".62"/>
+  </g>
+  <g transform="matrix(.92 -.018 -.235 1 631 160)" filter="url(#shadow)">
+    <rect x="7" y="8" width="395" height="952" rx="58" fill="url(#metal)"/>
+    <rect x="0" y="0" width="396" height="948" rx="57" fill="#898e92" stroke="#d2d5d7" stroke-width="3"/>
+    <rect x="11" y="9" width="378" height="930" rx="50" fill="#1b2228" stroke="#49535a" stroke-width="2"/>
+    <g clip-path="url(#front-screen)" font-family="Arial,sans-serif">
+      <rect x="21" y="20" width="354" height="914" fill="#f5f7fa"/>
+      <rect x="21" y="20" width="354" height="107" fill="#fff"/>
+      <use href="#a-mark" x="48" y="49" width="36" height="36" style="color:#184d98"/>
+      <text x="98" y="61" fill="#162b4a" font-size="19" font-weight="700">ARTECHS USA</text>
+      <text x="98" y="84" fill="#58718d" font-size="11" letter-spacing="2">CAREER PATHS</text>
+      <path d="M327 55h20m-20 8h20m-20 8h20" stroke="#526983" stroke-width="2" stroke-linecap="round"/>
+      <path d="M21 116h354v221q0 27-27 27H48q-27 0-27-27Z" fill="url(#blue)"/>
+      <path d="M21 116h264L103 364H21Z" fill="url(#shine)"/>
+      <text x="47" y="153" fill="#fff" font-size="24" font-weight="700">Explore your next step</text>
+      <text x="47" y="179" fill="#d5e8ff" font-size="12">Explore technology career paths</text>
+      <rect x="47" y="205" width="302" height="41" rx="8" fill="#fff"/>
+      <circle cx="64" cy="223" r="6" fill="none" stroke="#2f6bb2" stroke-width="1.5"/><path d="m68 228 4 4" stroke="#2f6bb2" stroke-width="1.5"/>
+      <text x="84" y="230" fill="#71829a" font-size="12">Find your area of expertise</text>
+      <rect x="47" y="258" width="302" height="41" rx="8" fill="#fff"/>
+      <path d="M64 269c-4 0-7 3-7 7 0 6 7 12 7 12s7-6 7-12c0-4-3-7-7-7Z" fill="none" stroke="#2f6bb2" stroke-width="1.3"/><circle cx="64" cy="276" r="2" fill="none" stroke="#2f6bb2"/>
+      <text x="84" y="284" fill="#71829a" font-size="12">Work preferences</text>
+      <rect x="47" y="315" width="109" height="31" rx="6" fill="#183e82"/>
+      <text x="101" y="335" fill="#fff" font-size="12" text-anchor="middle">Explore paths</text>
+      <text x="47" y="398" fill="#59708c" font-size="10" font-weight="700" letter-spacing="1.4">TECHNOLOGY CAREER PATHS</text>
+      <g filter="url(#card-shadow)">
+        <rect x="43" y="417" width="310" height="122" rx="12" fill="#fff"/>
+        <rect x="43" y="554" width="310" height="122" rx="12" fill="#fff"/>
+      </g>
+      <text x="59" y="445" fill="#1b4e97" font-size="16" font-weight="700">Cloud &amp; Platform</text>
+      <rect x="59" y="458" width="95" height="19" rx="5" fill="#e6f0ff"/><text x="106" y="471" fill="#38609a" font-size="9" text-anchor="middle">ROLE FAMILY</text>
+      <text x="59" y="496" fill="#748398" font-size="11">Infrastructure, workloads and automation</text>
+      <text x="59" y="519" fill="#315d96" font-size="11">Explore this career path</text><use href="#arrow" x="318" y="504" width="19" height="19" style="color:#315d96"/>
+      <text x="59" y="582" fill="#1b4e97" font-size="16" font-weight="700">Data Engineering</text>
+      <rect x="59" y="595" width="95" height="19" rx="5" fill="#e6f0ff"/><text x="106" y="608" fill="#38609a" font-size="9" text-anchor="middle">ROLE FAMILY</text>
+      <text x="59" y="633" fill="#748398" font-size="11">Pipelines, integration and analytics</text>
+      <text x="59" y="656" fill="#315d96" font-size="11">Explore this career path</text><use href="#arrow" x="318" y="641" width="19" height="19" style="color:#315d96"/>
+      <rect x="43" y="696" width="310" height="133" rx="12" fill="#e8f0fa"/>
+      <text x="59" y="723" fill="#193b66" font-size="14" font-weight="700">Introduce your experience</text>
+      <text x="59" y="746" fill="#637791" font-size="11">Present your skills and relevant work.</text>
+      <rect x="59" y="762" width="181" height="33" rx="6" fill="#245ba6"/><text x="149" y="783" fill="#fff" font-size="11" text-anchor="middle">Explore résumé guidance</text>
+      <text x="59" y="814" fill="#637791" font-size="10">Your expertise. Your next chapter.</text>
+      <path d="M21 850h354" stroke="#dae1e9"/>
+      <rect x="21" y="851" width="354" height="83" fill="#fff"/>
+      <text x="69" y="879" fill="#1e5091" font-size="11" font-weight="700">Careers</text><text x="167" y="879" fill="#7e8b9e" font-size="11">Career paths</text><text x="284" y="879" fill="#7e8b9e" font-size="11">Résumé</text>
+      <text x="198" y="909" fill="#7d8a9d" font-size="10" text-anchor="middle">Technology and specialist teams</text>
+      <rect x="150" y="922" width="95" height="4" rx="2" fill="#687586"/>
+    </g>
+    <path d="M37 12h309" stroke="#fff" stroke-width="1.5" opacity=".65"/>
+    <path d="M400 209v78" stroke="#30363b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <defs><style>.cls-1{fill:#007bb5;}.cls-2{fill:#fff;}</style></defs>
+    <path class="cls-1" d="M18.52,0h-17A1.46,1.46,0,0,0,0,1.44V18.56A1.46,1.46,0,0,0,1.48,20h17A1.46,1.46,0,0,0,20,18.56V1.44A1.46,1.46,0,0,0,18.52,0Z"/>
+    <rect class="cls-2" x="2.96" y="7.5" width="2.97" height="9.54"/>
+    <circle class="cls-2" cx="4.45" cy="4.47" r="1.72"/>
+    <path class="cls-2" d="M13.48,7.26A3.12,3.12,0,0,0,10.68,8.8h0V7.5H7.79V17h3V12.32c0-1.24.24-2.45,1.78-2.45s1.54,1.42,1.54,2.53V17h3V11.81C17,9.24,16.49,7.26,13.48,7.26Z"/>
+</svg>

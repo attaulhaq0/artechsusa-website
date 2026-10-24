@@ -1,0 +1,57 @@
+{
+  "servicesIntro": "Choose the service family closest to your requirement, then connect the scope with your users, systems and delivery responsibilities.",
+  "services": [
+    {
+      "title": "Cloud",
+      "body": "Assess the current environment, plan workload changes and agree the cloud operating responsibilities.",
+      "href": "/services/cloud"
+    },
+    {
+      "title": "Data & AI",
+      "body": "Connect data sources, clarify reporting needs and evaluate a practical AI use case with appropriate review.",
+      "href": "/services/data-ai"
+    },
+    {
+      "title": "Custom Software",
+      "body": "Define user workflows, develop applications and connect the systems those applications depend on.",
+      "href": "/services/custom-software"
+    },
+    {
+      "title": "Managed IT",
+      "body": "Define the systems, user support, maintenance and escalation work within an agreed support scope.",
+      "href": "/services/managed-it"
+    }
+  ],
+  "staffing": "Compare Staff Augmentation, Direct Hire and Dedicated Remote Teams for cloud, data, software and IT operations requirements. Start by defining the role, the work and who will manage delivery.",
+  "models": [
+    {
+      "title": "Staff Augmentation",
+      "body": "Add a defined skill or capacity to an existing team. Agree the responsibilities, duration and day-to-day management before the engagement begins.",
+      "href": "/staffing",
+      "best_for": "A team that needs additional specialist capacity for defined work.",
+      "scope_to_agree": "Role, duration, supervision, working arrangement and commercial terms.",
+      "review_status": "proposed",
+      "preview_label": "Proposed content — client review"
+    },
+    {
+      "title": "Direct Hire",
+      "body": "Support a permanent recruitment requirement. Define the role and selection criteria, then agree the recruitment scope and employment arrangement with the hiring organization.",
+      "href": "/staffing",
+      "best_for": "A permanent position with an approved hiring requirement.",
+      "scope_to_agree": "Role, selection process, employer, location and recruitment terms.",
+      "review_status": "proposed",
+      "preview_label": "Proposed content — client review"
+    },
+    {
+      "title": "Dedicated Remote Teams",
+      "body": "Plan a focused remote team around an agreed body of work. Define the team structure, delivery ownership, collaboration hours and working arrangements together.",
+      "href": "/staffing",
+      "best_for": "Work that needs a defined team structure rather than one additional role.",
+      "scope_to_agree": "Team composition, management, delivery ownership, location eligibility and collaboration.",
+      "review_status": "proposed",
+      "preview_label": "Proposed content — client review"
+    }
+  ],
+  "careers": "No verified live vacancies are published in this preview. Example roles below are included only to review the listing design.",
+  "contact": "Share a technology requirement or hiring need, the systems or skills involved, and any timing context. A concise starting brief is enough."
+}
