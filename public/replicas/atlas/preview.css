@@ -1,0 +1,53 @@
+/* Layout/typography/colors come from the localized source CSS. These rules govern preview-only behavior and labels. */
+[hidden]{display:none!important}
+html{scroll-padding-top:88px}
+html[data-motion=paused] .rise{animation:none!important;opacity:1!important;transform:none!important}
+.artechs-wordmark{font-family:var(--font-grotesk),sans-serif;font-size:20px;font-weight:600;letter-spacing:-.045em;line-height:44px;white-space:nowrap;color:var(--color-snow,#e9f2f7);display:block;content:normal!important}
+.artechs-monogram{font-family:var(--font-grotesk),sans-serif;font-size:24px;font-weight:700;letter-spacing:-.04em;line-height:1;display:flex;align-items:center;justify-content:center;content:normal!important}
+.mark-swap.artechs-monogram{width:28px!important;height:34px!important;font-size:31px;color:var(--color-snow,#e9f2f7)}
+body.source-careers .fa,body.source-careers .far,body.source-careers .fas{font-family:'Font Awesome 5 Pro'!important;font-weight:300!important}
+.artechs-wordmark.mark-swap{font-size:31px;font-weight:700;line-height:34px}
+.artechs-wordmark:not(.logo-swap):not(.mark-swap){height:auto!important;width:auto!important;min-width:20px;font-size:16px;line-height:1.3}
+.navbar-brand .artechs-wordmark{font-family:Poppins,sans-serif;font-size:22px;color:#061538;line-height:36px;font-weight:700}
+.preview-copy-label{font-family:var(--font-plex-mono),monospace;font-size:10px;line-height:1.7;letter-spacing:.035em;color:var(--color-acct,#6fc3ec);margin-top:24px;max-width:720px;opacity:.85}
+.theme-light .preview-copy-label{color:#396880}
+.preview-input{width:100%;box-sizing:border-box}
+select.preview-input option{background:#101827;color:#e9f2f7}
+.preview-input[aria-invalid=true]{border-color:#f88a85}
+form[data-preview-form] [data-field=message],form[data-preview-form] [data-field=note],form[data-preview-form] [data-field=resume],form[data-preview-form] [data-field=consent]{grid-column:1/-1}
+.preview-consent{display:flex;align-items:flex-start;gap:12px;font:inherit;line-height:inherit;color:inherit}
+.preview-consent input{width:13px;height:13px;flex-shrink:0;accent-color:#6fc3ec;margin-top:4px}
+.preview-field-help,.preview-form-notice{font-size:11.5px;line-height:1.65;margin:10px 0 0;color:var(--color-fog,#9aa9b7)}
+.preview-field-error{font-size:12px;line-height:1.55;color:#f88a85;margin:7px 0 0}
+.preview-form-notice{margin-top:24px}
+.preview-privacy{display:inline-flex;font-size:12px;margin-top:18px}
+.preview-submit{display:flex!important;width:100%;justify-content:center;margin-top:24px}
+.preview-form-status{font-size:13px;line-height:1.7;margin-top:16px;color:#6fc3ec}
+.preview-utility-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:35px}
+.preview-media-label{display:block;font-size:9px;line-height:1.5;opacity:.8;color:inherit;margin-top:8px}
+.snapshot-status{font-family:var(--font-manrope),sans-serif;font-size:11px;line-height:1.55;color:var(--color-fog,#9aa9b7);margin:10px 0 0}
+[data-company-snapshot] .hairline-grid>div{min-width:0}
+[data-company-snapshot] [data-snapshot-value]{white-space:nowrap}
+.candidate-preview-cta{display:inline-flex!important;align-items:center;justify-content:center;min-height:48px;padding:12px 19px!important;border:1px solid currentColor!important;border-radius:6px;font-family:inherit;font-size:14px!important;font-weight:600;line-height:1.45;text-decoration:none;white-space:normal}
+body.source-careers [data-candidate-preview] .candidate-preview-cta{background:#142f58;color:#fff;border-color:#142f58!important}
+body.source-careers [data-candidate-preview] .candidate-preview-cta:focus-visible,.candidate-preview-cta:focus-visible{outline:3px solid #2d8ad4;outline-offset:4px}
+body.source-careers .mobile-screen-1 img{width:100%;height:auto}
+footer .candidate-preview-cta{font-size:12px!important;min-height:43px;padding:9px 10px!important}
+@media(max-width:640px){[data-company-snapshot] .snapshot-status{font-size:10px}.candidate-preview-cta{font-size:13px!important}body.source-careers [data-candidate-preview] .mobile-screen-1{position:relative;right:auto;bottom:auto;margin:22px auto 0;max-width:420px}body.source-careers [data-candidate-preview] .mobile-screen-1 .preview-media-label{position:static}}
+.replica-canvas-video,.replica-canvas-poster{pointer-events:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:screen}
+.replica-canvas-video{opacity:0;transition:opacity .2s}
+html[data-motion=enabled] .replica-canvas-video{opacity:1}
+html[data-theme=light] .replica-canvas-video,html[data-theme=light] .replica-canvas-poster{mix-blend-mode:multiply;filter:invert(1)}
+html[data-motion=paused] *,html[data-motion=paused] *::before,html[data-motion=paused] *::after{animation-play-state:paused!important;scroll-behavior:auto!important;transition-duration:0s!important}
+body.source-blog header .artechs-wordmark{font-family:inherit;color:#09193a;font-size:27px;line-height:1.25;white-space:nowrap}
+body.source-blog .navbar-brand .artechs-wordmark{min-height:80px;display:flex;align-items:center}
+@media(max-width:991px){body.source-blog #navbar-menu.show{display:block!important;visibility:visible!important;opacity:1!important;left:0!important;transform:none!important}}
+.preview-motion-button{position:fixed;left:22px;bottom:22px;z-index:74;background:rgba(14,16,19,.86);border:1px solid rgba(233,242,247,.2);border-radius:100px;padding:9px 13px;color:#e9f2f7;font-family:var(--font-plex-mono),monospace;font-size:10px;line-height:1.4;backdrop-filter:blur(14px);cursor:pointer}
+.preview-dialog{width:min(700px,calc(100vw - 36px));max-height:calc(100svh - 70px);overflow-y:auto;box-sizing:border-box;background:var(--color-ink2,#0e1420);color:var(--color-snow,#e9f2f7);border:1px solid var(--color-line,rgba(233,242,247,.16));border-radius:22px;padding:34px 36px;font-family:var(--font-manrope),sans-serif}
+.preview-dialog::backdrop{background:rgba(2,5,10,.75);backdrop-filter:blur(6px)}
+.preview-dialog h2{font-size:28px;font-weight:400;letter-spacing:-.04em;line-height:1.25;margin:0 45px 24px 0}
+.preview-dialog h3{font-size:17px;line-height:1.4;margin-top:30px}
+.preview-dialog p,.preview-dialog li{font-size:14px;color:var(--color-fog,#9aa9b7);line-height:1.75}
+.preview-dialog-close{position:absolute;right:23px;top:24px;border:1px solid rgba(233,242,247,.22);border-radius:100px;padding:7px 12px;font-size:11px;cursor:pointer}
+[data-mobile-menu]{overscroll-behavior:contain}
+@media(max-width:640px){.preview-motion-button{left:15px;bottom:15px;font-size:9px;padding:8px 11px}.preview-dialog{padding:28px 23px}.preview-dialog h2{font-size:25px}.artechs-wordmark{font-size:19px}.preview-copy-label{font-size:9px}}
