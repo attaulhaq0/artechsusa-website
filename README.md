@@ -1,16 +1,16 @@
 # AR TECH INC — Website
 
-A delivered website for a technology consulting and staffing business, covering services, industries, careers and enquiry journeys.
+Freelance web development for a technology consulting and staffing business, covering services, industries, careers and enquiry journeys.
 
-[Live website](https://artechsusa.com/) · [Design previews](https://github.com/attaulhaq0/artechsusa-design-lab) · [Website portfolio](https://github.com/attaulhaq0/website-work)
+[Live website](https://artechsusa.com/) · [Design previews](design-previews/) · [Website portfolio](https://github.com/attaulhaq0/website-work)
 
-![AR TECH INC desktop homepage](docs/images/home-desktop.png)
+![AR TECH INC desktop and mobile website](docs/images/devices.webp)
 
 ## Work
 
 - Responsive layouts, typography, navigation and reusable page styles across 27 routes.
 - Service and industry pages, interactive delivery graphics and an on-site information assistant.
-- Contact and application forms with PHP validation, signed tokens, rate limits, verified SMTP/TLS and résumé attachments.
+- Contact and application forms with PHP validation, expiring session CSRF tokens, rate limits, verified SMTP/TLS and résumé attachments.
 - Crawlable HTML, unique metadata, canonical URLs, JSON-LD and a sitemap covering 24 indexable pages. [Technical SEO](docs/seo.md)
 - Consent controls for analytics and local font/media assets.
 
@@ -26,6 +26,8 @@ HTML, CSS and JavaScript power the frontend. PHP and PHPMailer handle submission
 </details>
 
 ## Run locally
+
+The delivered website and its design previews live in this repository. Browse [Signal, Human and Atlas](design-previews/) for screenshots, source and review instructions. To run the design selector, use `cd design-previews`, then `npm ci` and `npm run dev`.
 
 Requires PHP 8.4 with OpenSSL, fileinfo and mbstring.
 
@@ -55,6 +57,7 @@ private/                  Form handler, PHPMailer and configuration example
 scripts/dev-router.php    Local URL routing
 tests/                   Site and form integration checks
 docs/                    Screenshots and technical SEO notes
+design-previews/         Signal, Human and Atlas source and review interface
 ```
 
 Upload `public_html/` as the document root and place `private/` beside it. Copy `private/forms-config.example.php` to `private/forms-config.php`, configure it on the server and enable submissions. Keep configuration, credentials and runtime files outside the document root and Git. The example contains no passwords or API keys.

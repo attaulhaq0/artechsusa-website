@@ -64,7 +64,7 @@ npm run preview
 - `public/replicas/` — page inventories, static pages and each direction's runtime assets.
 - `tests/` — page inventory and local dependency checks.
 
-The delivered site is maintained separately in [artechsusa-website](https://github.com/attaulhaq0/artechsusa-website). Preview pages remain excluded from search indexing. Third-party notices remain with their assets.
+The [delivered website](../) and these design previews are maintained in this repository. Preview pages remain excluded from search indexing. Third-party notices remain with their assets.
 
 Maintained by [Sheikh Atta-ul-Haq](https://github.com/attaulhaq0).
 
