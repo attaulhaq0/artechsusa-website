@@ -1,0 +1,60 @@
+/* Restore the native careers composition with concise, labelled preview copy. */
+body[data-source-pattern=careers] .b-header__logo{width:190px;display:flex;align-items:center;min-height:45px;flex-shrink:0}
+body[data-source-pattern=careers] .b-header__logo .artechs-wordmark{font-family:'Public Sans',sans-serif;font-weight:400;font-size:21px;letter-spacing:.12em;padding:0;line-height:1.1}
+body[data-source-pattern=careers] .b-header a,body[data-source-pattern=careers] .btn,body[data-source-pattern=careers] .home-events__secondary a:not(.btn){text-decoration:none}
+body[data-source-pattern=careers] .b-nav__item{margin:0 22px;white-space:nowrap}
+body[data-source-pattern=careers] .b-header__nav > .btn{white-space:nowrap}
+body[data-source-pattern=careers] .b-header__close{display:none}
+body[data-source-pattern=careers] .btn:focus-visible{outline:none;box-shadow:0 0 0 3px #fff,0 0 0 5px #1324bf}
+body[data-source-pattern=careers] .btn:focus:not(:focus-visible){outline:none;box-shadow:none}
+@media(forced-colors:active){body[data-source-pattern=careers] .btn:focus-visible{outline:2px solid ButtonText;outline-offset:4px;box-shadow:none}}
+body[data-source-pattern=careers] .home-intro__link{left:315px;text-decoration:underline}
+body[data-source-pattern=careers] .career-brand-note{position:absolute;top:calc(100% + 15px);left:15px;font-size:11px;line-height:1.4;color:#fff;opacity:.9;margin:0}
+body[data-source-pattern=careers] .companies__container{position:relative}
+body[data-source-pattern=careers] .home-events__container{grid-template-rows:1fr 1fr}
+body[data-source-pattern=careers] .career-preview-guidance{color:#3c3c3c;line-height:1.35}
+body[data-source-pattern=careers] .career-preview-guidance h3{font-size:22px;font-weight:200;color:#0020bb;margin-bottom:22px}
+body[data-source-pattern=careers] .career-preview-guidance p{font-size:20px;font-weight:200;line-height:1.45;margin:0 0 24px}
+body[data-source-pattern=careers] .career-preview-guidance a{font-size:16px;text-decoration:underline}
+body[data-source-pattern=careers] .career-preview-guidance .replica-label{line-height:1.5}
+body[data-source-pattern=careers] .home-events__slider a{display:block}
+body[data-source-pattern=careers] .home-events__slider img{display:block;aspect-ratio:626/674;height:auto}
+body[data-source-pattern=careers] .career-media-caption{position:absolute;bottom:14px;left:16px;padding:6px 11px;background:#ffffffeb;border-radius:18px;color:#001429;font-size:11px}
+body[data-source-pattern=careers] .get-onboard__subtitle{max-width:420px}
+body[data-source-pattern=careers] .awards__container > .replica-label{position:absolute;left:15px;bottom:-144px;text-align:left!important}
+body[data-source-pattern=careers] .career-evidence-card img{display:block;width:100%;height:100%;object-fit:contain}
+body[data-source-pattern=careers] .footer__logo .artechs-wordmark{padding:0;font-family:'Public Sans',sans-serif;font-size:21px;font-weight:400;letter-spacing:.12em}
+body[data-source-pattern=careers] .footer__links a{text-decoration:none}
+body[data-source-pattern=about] .about-video .artechs-company-poster{display:block;width:100%;height:100%;object-fit:cover}
+body[data-source-pattern=about] .about-video-pop::after{display:none}
+body[data-source-pattern=about] .about-video-pop:focus-visible{outline:none;box-shadow:0 0 0 4px #fff,0 0 0 6px #1324bf}
+@media(min-width:769px) and (max-width:1199px){
+  body[data-source-pattern=careers] .b-header__logo{width:170px}
+  body[data-source-pattern=careers] .b-header__logo .artechs-wordmark{font-size:18px}
+  body[data-source-pattern=careers] .b-nav__item{margin:0 12px}
+  body[data-source-pattern=careers] .b-header__nav > .btn{padding:14.5px 22px}
+}
+@media(max-width:768px){
+  body[data-source-pattern=careers] .b-header__logo{width:170px;min-height:42.78125px}
+  body[data-source-pattern=careers] .b-header__logo .artechs-wordmark{font-size:17px;letter-spacing:.1em}
+  body[data-source-pattern=careers] .b-nav__item{margin:10px auto}
+  body[data-source-pattern=careers] .b-header__close{display:block}
+  body[data-source-pattern=careers] .b-header__nav.career-menu-open{display:flex}
+  html.career-menu-open{overflow:hidden}
+  body[data-source-pattern=careers] .b-header__nav.career-menu-open:before{content:'';position:fixed;inset:0;background:#00142966;z-index:-1;pointer-events:none}
+  body[data-source-pattern=careers] .home-intro__link{left:auto;right:24px;font-size:12px;white-space:nowrap}
+  body[data-source-pattern=careers] .career-brand-note{left:15px;bottom:-18px;font-size:8px;line-height:1.2;white-space:nowrap}
+  body[data-source-pattern=careers] .companies{padding-bottom:24px}
+  body[data-source-pattern=careers] .home-events__secondary{display:none}
+  body[data-source-pattern=careers] .home-events__see-more{display:block}
+  body[data-source-pattern=careers] .career-preview-guidance{padding:0;margin:0}
+  body[data-source-pattern=careers] .career-preview-guidance:before{margin-bottom:24px}
+  body[data-source-pattern=careers] .career-preview-guidance h3{font-size:18px;margin-bottom:14px}
+  body[data-source-pattern=careers] .career-preview-guidance p{font-size:14px;line-height:1.45;margin-bottom:14px}
+  body[data-source-pattern=careers] .career-preview-guidance a{font-size:14px}
+  body[data-source-pattern=careers] .get-onboard__title{white-space:normal}
+  body[data-source-pattern=careers] .get-onboard__subtitle{max-width:none}
+  body[data-source-pattern=careers] .awards__container > .replica-label{position:relative;left:auto;bottom:auto;text-align:left!important;margin:0!important}
+  body[data-source-pattern=careers] .career-evidence-card{height:136px}
+  body[data-source-pattern=careers] .awards__title{max-width:140px;top:11vw}
+}

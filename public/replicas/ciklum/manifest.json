@@ -1,0 +1,150 @@
+{
+  "design": "signal",
+  "displayName": "Signal",
+  "pages": [
+    {
+      "id": "01-home",
+      "title": "Home",
+      "file": "/replicas/signal/01-home.html",
+      "initialHash": ""
+    },
+    {
+      "id": "02-services",
+      "title": "Services",
+      "file": "/replicas/signal/02-services.html",
+      "initialHash": ""
+    },
+    {
+      "id": "03-staffing",
+      "title": "Staffing",
+      "file": "/replicas/signal/03-staffing.html",
+      "initialHash": ""
+    },
+    {
+      "id": "04-industries",
+      "title": "Industries",
+      "file": "/replicas/signal/04-industries.html",
+      "initialHash": ""
+    },
+    {
+      "id": "05-about",
+      "title": "About",
+      "file": "/replicas/signal/05-about.html",
+      "initialHash": ""
+    },
+    {
+      "id": "06-careers",
+      "title": "Careers",
+      "file": "/replicas/signal/06-careers.html",
+      "initialHash": ""
+    },
+    {
+      "id": "07-contact",
+      "title": "Contact",
+      "file": "/replicas/signal/07-contact.html",
+      "initialHash": ""
+    },
+    {
+      "id": "08-cloud",
+      "title": "Cloud",
+      "file": "/replicas/signal/08-cloud.html",
+      "initialHash": ""
+    },
+    {
+      "id": "09-data-ai",
+      "title": "Data & AI",
+      "file": "/replicas/signal/09-data-ai.html",
+      "initialHash": ""
+    },
+    {
+      "id": "10-custom-software",
+      "title": "Custom Software",
+      "file": "/replicas/signal/10-custom-software.html",
+      "initialHash": ""
+    },
+    {
+      "id": "11-managed-it",
+      "title": "Managed IT",
+      "file": "/replicas/signal/11-managed-it.html",
+      "initialHash": ""
+    },
+    {
+      "id": "12-job-detail",
+      "title": "Cloud Engineering",
+      "file": "/replicas/signal/12-job-detail.html",
+      "initialHash": ""
+    },
+    {
+      "id": "13-application",
+      "title": "Share your résumé",
+      "file": "/replicas/signal/13-application.html",
+      "initialHash": ""
+    },
+    {
+      "id": "14-thank-you",
+      "title": "Continue exploring",
+      "file": "/replicas/signal/14-thank-you.html",
+      "initialHash": ""
+    },
+    {
+      "id": "15-privacy",
+      "title": "Privacy Notice",
+      "file": "/replicas/signal/15-privacy.html",
+      "initialHash": ""
+    },
+    {
+      "id": "16-terms",
+      "title": "Website Terms",
+      "file": "/replicas/signal/16-terms.html",
+      "initialHash": ""
+    },
+    {
+      "id": "17-404",
+      "title": "Page Not Found",
+      "file": "/replicas/signal/17-404.html",
+      "initialHash": ""
+    },
+    {
+      "id": "18-resources",
+      "title": "Resources",
+      "file": "/replicas/signal/18-resources.html",
+      "initialHash": ""
+    },
+    {
+      "id": "19-case-healthcare",
+      "title": "Healthcare · Connect a reporting workflow",
+      "file": "/replicas/signal/19-case-healthcare.html",
+      "initialHash": ""
+    },
+    {
+      "id": "20-case-finance",
+      "title": "Finance · Modernize an internal application",
+      "file": "/replicas/signal/20-case-finance.html",
+      "initialHash": ""
+    },
+    {
+      "id": "21-case-retail",
+      "title": "Retail · Connect inventory and customer data",
+      "file": "/replicas/signal/21-case-retail.html",
+      "initialHash": ""
+    },
+    {
+      "id": "22-insight-technology",
+      "title": "Start with the scope before choosing the stack",
+      "file": "/replicas/signal/22-insight-technology.html",
+      "initialHash": ""
+    },
+    {
+      "id": "23-insight-staffing",
+      "title": "Which staffing model fits the work?",
+      "file": "/replicas/signal/23-insight-staffing.html",
+      "initialHash": ""
+    },
+    {
+      "id": "24-insight-careers",
+      "title": "Make your technical experience easier to understand",
+      "file": "/replicas/signal/24-insight-careers.html",
+      "initialHash": ""
+    }
+  ]
+}
