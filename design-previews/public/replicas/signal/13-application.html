@@ -1,0 +1,832 @@
+<!DOCTYPE html><html dir="ltr" lang="en" class="oj-agent-os-windows oj-agent-browser-edge-chromium"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self'; form-action 'none'; object-src 'none'; base-uri 'self'"><link rel="icon" href="/replicas/signal/assets/b8af204457ac02.svg"><title>Application / Résumé Submission · Artechs USA</title><link rel="stylesheet" href="/replicas/signal/assets/20cd148711112c.css">
+<link rel="stylesheet" href="/replicas/signal/assets/d483961d5aa022.css">
+<link rel="stylesheet" href="/replicas/signal/assets/9112087d6b9c6d.css">
+<link rel="stylesheet" href="/replicas/signal/assets/36c0f9a1db8838.css"><style></style>
+<style>
+            :root {
+    --primary-blue: #0020bb;
+    --primary-text: #3c3c3c;
+    --secondary-text: #a0a0a0;
+    --default-bg: #f2f2f0;
+}
+/* global header styles start*/
+.app-header-horizontal{
+    justify-content: space-around;
+}
+.app-header-horizontal-navbar__text,
+.app-header-horizontal-navbar__text:visited{
+    position: relative;
+    padding-bottom: 3px;
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+.app-header-horizontal-navbar__text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-blue);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.app-header-horizontal-navbar__text:hover::after {
+    transform: scaleX(1);
+}
+.user-menu__icon,
+.favourite-jobs__toggle{
+    color: var(--primary-blue) !important;
+}
+.app-header-hamburger .user-menu__header .user-menu__icon::before {
+    color: var(--primary-blue);
+}
+[dir] .app-toggle-menu__strap{
+    background: var(--primary-blue);
+}
+/* global header links styles end*/
+
+/* burger header menu links styles start*/
+.app-menu__item a,
+.app-menu__item a:visited{
+    color: var(--primary-blue)
+}
+.app-menu__close{
+    color: var(--primary-blue)
+}
+/* burger header menu links styles end*/
+
+.app__custom-footer{
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+/* custom footer styles start*/
+.custom-footer{
+    margin: 0 20px;
+    border-top: 1px solid var(--primary-blue);
+    padding-top: 30px;
+    color: var(--primary-blue);
+    font-size: 14px;
+    font-weight: 300;
+}
+.footer-links-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+.jobs__item a{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.jobs__item a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-blue);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.jobs__item a:hover::after {
+    transform: scaleX(1);
+}
+.footer__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer__item a{
+    text-decoration: underline !important;
+}
+.footer__item--facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.facebook-links{
+    margin-left: 40px;
+}
+.facebook-links a{
+    margin-right: 12px;
+    line-height: 1.5;
+}
+.footer__icon {
+    display: inline-block;
+    width: 22px;
+    margin-right: 9px;
+}
+.footer-copyright p{
+    margin: 0;
+    line-height: 1.5;
+}
+.footer-copyright a{
+    text-decoration: underline;
+}
+@media (min-width: 768px) {
+    .custom-footer{
+        padding-top: 60px;
+    }
+    .footer-links-container{
+        margin-top: 40px;
+        gap: 40px;
+    }
+}
+/* custom footer styles end*/
+
+/* Talent community tile styles start*/
+.talent-community-tile__title{
+    color: var(--primary-blue);
+}
+.talent-community-tile a,
+.talent-community-tile a:visited{
+    color: #ffffff;
+    background-color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    border-radius: 30px;
+}
+.talent-community-tile a:hover{
+    background-color: #ffffff;
+    color: var(--primary-blue);
+}
+.talent-community-tile a::before{
+    content:none
+}
+/* Talent community tile styles end*/
+
+/* apply pages styles start */
+.cs-sign-in__container h1,
+.apply-flow-dialog__header,
+.app-dialog__header h1{
+    color: var(--primary-blue);
+}
+/* apply pages styles end */
+
+/* vacancy details page styles start */
+.job-tag__title{
+    color: var(--primary-blue);
+}
+/* vacancy details page styles end */
+
+/* apply flow headers start*/
+.apply-flow-dialog__header,
+.apply-flow-dialog__header > span,
+.app-dialog__header > h1,
+.job-details__title{
+  font-family: 'Public Sans' !important;
+  font-weight: 300 !important;
+}
+/* apply flow headers end*/
+
+/* upload resume box start*/
+.recommended-jobs-widget__icon-cloud{
+	display: none;
+}
+[dir] .recommended-jobs-widget {
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  [dir] .recommended-jobs-widget {
+    padding: 12px 20px;
+    margin: 6px 20px;
+  }
+  [dir] .recommended-jobs-widget__upload-section {
+    margin-top: 10px;
+  }
+  [dir] .search-jobs--horizontal {
+    padding-top: 0px;
+  }
+	.vacancy-list-banner{
+    margin-bottom: 6px !important
+	}
+}
+/* upload resume box end*/
+        </style>
+<style></style>
+<style></style><link rel="stylesheet" href="/replicas/signal/preview.css"><link rel="stylesheet" href="/replicas/signal/section-repairs.css"></head><body data-zoomrange="ZOOM-LTE-100" data-route="talent-community" class="app-loading font-family-primary app-loaded" data-replica-page="13-application" data-source-pattern="application"><a href="#replica-content" class="replica-skip-link">Skip to content</a>
+        <div class="preload" aria-hidden="true">
+            <div class="preload__icons"></div>
+            <div class="preload__primary-font"></div>
+            <div class="preload__secondary-font"></div>
+        </div>
+        <div class="app-loading-spinner"></div>
+        <div class="app" data-bind="view: 'layout'">
+
+
+<skip-navigation-link><a class="skip-navigation-link" href="#main" data-bind="a11y.skipTo: skipTo, i18n: 'general.a11y.skip-navigation-link', i18nAttr: {'aria-label': skipNavLinkAriaLabel}" aria-label="Skip to main content.">Skip to main content.</a>
+
+
+<ai-assistant-skip-navigation-link>
+</ai-assistant-skip-navigation-link>
+
+</skip-navigation-link>
+
+<div class="app__viewport">
+    <div class="app__wrapper">
+        <div class="app__main">
+            
+
+
+            <div class="app__top-wrapper">
+                <div class="app__top">
+                    
+<header>
+    <div class="app-header component-styling-wrapper-default" data-bind="class: uniqueWrapperClass">
+        <style data-bind="text: customCss"></style>
+        
+        <app-header-horizontal params="globalHeaderSettings:globalHeaderSettings, logoImages:logoImages, headerId:headerId"><header id="app-header-horizontal" class="app-header-horizontal">
+    <nav class="app-header-horizontal__left-wrapper">
+        <div class="app-header-horizontal__logo">
+            <company-logo params="isLogoHidden: isLogoHidden, logoImages:logoImages, headerId:headerId">
+
+<a class="app-header__logo app-header__logo--mobile" data-bind="route: 'home-page',
+    i18nAttr: { title: 'general.a11y.go-to-home-page', 'aria-label': 'general.a11y.go-to-home-page' }" href="#preview-guide" title="Go to Home Page" aria-label="Go to Home Page" data-preview-modal="candidate" data-own-copy="true"><span class="artechs-wordmark">ARTECHS USA</span></a>
+
+
+
+<a class="app-header__logo app-header__logo--desktop" data-bind="route: 'home-page',
+    i18nAttr: { title: 'general.a11y.go-to-home-page', 'aria-label': 'general.a11y.go-to-home-page' }" href="#preview-guide" title="Go to Home Page" aria-label="Go to Home Page" data-preview-modal="candidate" data-own-copy="true"><span class="artechs-wordmark">ARTECHS USA</span></a>
+
+
+</company-logo>
+        </div>
+
+        <app-header-horizontal-navbar class="app-header-horizontal-navbar">
+<button type="button" tabindex="-1" class="app-header-horizontal-navbar__arrow app-header-horizontal-navbar__arrow--left app-header-horizontal-navbar__arrow--disabled" id="headerLinksArrowLeft" data-bind="
+        i18nAttr: {
+            'aria-label': 'general.header-arrow-left-button'
+        }
+    " aria-label="Left side scroll. Press the enter key to view more header links" style="display: none;"></button>
+
+<div id="linksMenu" class="app-header-horizontal-navbar__links-menu" data-bind="scrollable">
+    <ul class="app-header-horizontal-navbar__links">
+        
+        <li class="app-header-horizontal-navbar__item">
+            <span class="app-header-horizontal-navbar__item-link-wrapper">
+                
+
+                
+                <a class="app-header-horizontal-navbar__text" data-bind="text: link.text, attr: {
+                        title: link.text,
+                        href: link.url,
+                        'aria-label': link.text
+                    }" title="About Artechs USA" href="/replicas/signal/05-about.html" aria-label="About Artechs USA" data-own-copy="true" data-page-id="05-about">About Artechs USA</a>
+                
+
+                
+            </span>
+
+            
+        </li>
+        
+        <li class="app-header-horizontal-navbar__item">
+            <span class="app-header-horizontal-navbar__item-link-wrapper">
+                
+
+                
+                <a class="app-header-horizontal-navbar__text" data-bind="text: link.text, attr: {
+                        title: link.text,
+                        href: link.url,
+                        'aria-label': link.text
+                    }" title="Our offices" href="/replicas/signal/07-contact.html" aria-label="Our offices" data-own-copy="true" data-page-id="07-contact">Contact</a>
+                
+
+                
+            </span>
+
+            
+        </li>
+        
+        <li class="app-header-horizontal-navbar__item">
+            <span class="app-header-horizontal-navbar__item-link-wrapper">
+                
+
+                
+                <a class="app-header-horizontal-navbar__text" data-bind="text: link.text, attr: {
+                        title: link.text,
+                        href: link.url,
+                        'aria-label': link.text
+                    }" title="Our events" href="#preview-guide" aria-label="Our events" data-preview-modal="candidate" data-own-copy="true">Career Guidance</a>
+                
+
+                
+            </span>
+
+            
+        </li>
+        
+        <li class="app-header-horizontal-navbar__item">
+            <span class="app-header-horizontal-navbar__item-link-wrapper">
+                
+
+                
+                <a class="app-header-horizontal-navbar__text" data-bind="text: link.text, attr: {
+                        title: link.text,
+                        href: link.url,
+                        'aria-label': link.text
+                    }" title="Growth" href="#preview-guide" aria-label="Growth" data-preview-modal="candidate" data-own-copy="true">Career Guidance</a>
+                
+
+                
+            </span>
+
+            
+        </li>
+        
+    </ul>
+</div>
+
+<button type="button" tabindex="0" aria-label="Right side scroll. Press the enter key to view more header links" class="app-header-horizontal-navbar__arrow app-header-horizontal-navbar__arrow--right app-header-horizontal-navbar__arrow--active" id="headerLinksArrowRight" data-bind="
+        i18nAttr: {
+            'aria-label': 'general.header-arrow-right-button'
+        }
+    " data-click-listener="true" style="display: none;"></button>
+
+</app-header-horizontal-navbar>
+    </nav>
+
+    <div class="app-header-horizontal__right-wrapper">
+        <sitemap-link><a data-bind="attr: { href: url }" class="sitemap-link" href="#preview-guide" data-preview-modal="candidate">sitemap</a>
+</sitemap-link>
+
+        <favourite-jobs>
+</favourite-jobs>
+
+        
+        <app-header-horizontal-user-login-button params="employeeText: employeeText, isEmployeeButtonHidden: isEmployeeButtonHidden">
+</app-header-horizontal-user-login-button>
+        
+
+        <user-menu params="profileText: profileText, isProfileButtonHidden: isProfileButtonHidden"><div class="header-menu user-menu__container" data-bind="css: { 'header-menu--active': isOpened } ,
+    clickOutside: { action: closeMenu, when: isOpened},
+    a11y.keysHandler: {keys: 'esc', handler: closeMenu},
+    a11y.setInitialFocus: { isVisible: isOpened, resetFocus: '.user-menu__header'}" tabindex="-1">
+    
+    <a class="user-menu__header focused-tooltip" id="user-menu-header" data-bind="click: menuClicked, css: {'theme-color-1': isOpened},
+            attr: {
+                'href': url,
+                'title': getUserMenuButtonLabel,
+                'aria-label': getUserMenuButtonLabel,
+                'aria-expanded': showUserData() ? (isOpened() ? 'true' : 'false') : null
+            }" href="#preview-guide" title="Manage profile" aria-label="Manage profile" data-preview-modal="candidate">
+        
+        
+        <span class="user-menu__icon"></span>
+        
+
+        
+        
+
+        
+    </a>
+    
+
+    <div aria-live="polite" class="header-menu__dropdown user-menu__dropdown" data-bind="a11y.trapFocus">
+        
+        
+        <hr class="user-menu__separator">
+        <ul>
+            <li class="user-menu__action-item">
+                <button data-bind="click: goToCss,
+                    i18n: 'candidate-self-service.user-menu.my-profile'">Profile</button>
+            </li>
+            <li class="user-menu__action-item">
+                <button data-bind="i18n: 'candidate-self-service.sign-out',
+                    click: signOut">Sign Out</button>
+            </li>
+        </ul>
+    </div>
+</div>
+</user-menu>
+
+        
+    </div>
+</header>
+</app-header-horizontal>
+        
+
+        
+    <div class="replica-oracle-mobile-header"><div class="app-header-hamburger">
+    <company-logo params="isLogoHidden: isLogoHidden, logoImages:logoImages, headerId:headerId">
+
+<a class="app-header__logo app-header__logo--mobile" data-bind="route: 'home-page',
+    i18nAttr: { title: 'general.a11y.go-to-home-page', 'aria-label': 'general.a11y.go-to-home-page' }" href="#preview-guide" title="Go to Home Page" aria-label="Go to Home Page" data-preview-modal="candidate" data-own-copy="true"><span class="artechs-wordmark">ARTECHS USA</span></a>
+
+
+
+<a class="app-header__logo app-header__logo--desktop" data-bind="route: 'home-page',
+    i18nAttr: { title: 'general.a11y.go-to-home-page', 'aria-label': 'general.a11y.go-to-home-page' }" href="#preview-guide" title="Go to Home Page" aria-label="Go to Home Page" data-preview-modal="candidate" data-own-copy="true"><span class="artechs-wordmark">ARTECHS USA</span></a>
+
+
+</company-logo>
+
+    <div class="app-header__actions">
+        <sitemap-link><a data-bind="attr: { href: url }" class="sitemap-link" href="#preview-guide" data-preview-modal="candidate">sitemap</a>
+</sitemap-link>
+        <favourite-jobs>
+</favourite-jobs>
+        <user-menu class="user-menu" params="profileText: profileText, isProfileButtonHidden: isProfileButtonHidden"><div class="header-menu user-menu__container" data-bind="css: { 'header-menu--active': isOpened } ,
+    clickOutside: { action: closeMenu, when: isOpened},
+    a11y.keysHandler: {keys: 'esc', handler: closeMenu},
+    a11y.setInitialFocus: { isVisible: isOpened, resetFocus: '.user-menu__header'}" tabindex="-1">
+    
+    <a class="user-menu__header focused-tooltip" id="user-menu-header" data-bind="click: menuClicked, css: {'theme-color-1': isOpened},
+            attr: {
+                'href': url,
+                'title': getUserMenuButtonLabel,
+                'aria-label': getUserMenuButtonLabel,
+                'aria-expanded': showUserData() ? (isOpened() ? 'true' : 'false') : null
+            }" href="#preview-guide" title="Manage profile" aria-label="Manage profile" data-preview-modal="candidate">
+        
+        
+        <span class="user-menu__icon"></span>
+        
+
+        
+        
+
+        
+    </a>
+    
+
+    <div aria-live="polite" class="header-menu__dropdown user-menu__dropdown" data-bind="a11y.trapFocus">
+        
+        
+        <hr class="user-menu__separator">
+        <ul>
+            <li class="user-menu__action-item">
+                <button data-bind="click: goToCss,
+                    i18n: 'candidate-self-service.user-menu.my-profile'">Profile</button>
+            </li>
+            <li class="user-menu__action-item">
+                <button data-bind="i18n: 'candidate-self-service.sign-out',
+                    click: signOut">Sign Out</button>
+            </li>
+        </ul>
+    </div>
+</div>
+</user-menu>
+        
+        <app-menu-toggle class="app-menu-toggle" params="uniqueWrapperClass: uniqueWrapperClass"><button class="app-toggle-menu__container focused-tooltip" data-bind="
+        click: open,
+        boolAttr: {'aria-expanded': isVisible},
+        i18nAttr: { title: 'general.a11y.open-menu', 'aria-label': 'general.a11y.open-menu' }
+    " aria-expanded="false" title="Open menu" aria-label="Open menu">
+    <span class="app-toggle-menu__strap-group">
+        <em class="app-toggle-menu__strap"></em>
+        <em class="app-toggle-menu__strap"></em>
+        <em class="app-toggle-menu__strap"></em>
+    </span>
+</button>
+</app-menu-toggle>
+        
+    </div>
+</div></div></div>
+</header>
+
+
+                    <div class="app__top-background-wrapper">
+                        <div class="app__top-background"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="app__content-wrapper">
+                <main id="replica-content" class="app__content" data-bind="view: 'main'" tabindex="-1"><div class="app__subpage talent-community-flow__subpage standard-apply-flow" data-bind="css: {'standard-apply-flow': isStandardApplyFlowEnabled}" data-own-copy="true"><div class="replica-oracle-application"><h1 class="heading">Introduce your technical experience.</h1><p class="replica-oracle-deck">Introduce your technical experience and the work you would like to do.</p><form action="about:blank" class="replica-form replica-oracle-form" data-preview-form="resume-submission" novalidate=""><div class="input-row "><label class="input-row__label" for="13-application-full_name">Full name <span aria-hidden="true">*</span></label><input class="input-row__control" type="text" name="full_name" id="13-application-full_name" required="" autocomplete="name"><span class="field-error" data-error-for="full_name"></span></div><div class="input-row "><label class="input-row__label" for="13-application-email">Email <span aria-hidden="true">*</span></label><input class="input-row__control" type="email" name="email" id="13-application-email" required="" autocomplete="email"><span class="field-error" data-error-for="email"></span></div><div class="input-row "><label class="input-row__label" for="13-application-phone">Phone <span class="field-optional">Optional</span></label><input class="input-row__control" type="tel" name="phone" id="13-application-phone" autocomplete="tel"><span class="field-error" data-error-for="phone"></span></div><div class="input-row "><label class="input-row__label" for="13-application-location">Current location <span class="field-optional">Optional</span></label><input class="input-row__control" type="text" name="location" id="13-application-location"><span class="field-error" data-error-for="location"></span></div><div class="input-row "><label class="input-row__label" for="13-application-resume">Résumé <span aria-hidden="true">*</span></label><input class="input-row__control replica-file" type="file" name="resume" id="13-application-resume" required=""><span class="selected-file" aria-live="polite">No file selected</span><span class="field-error" data-error-for="resume"></span><small class="field-help">Choose the résumé file you want to share.</small></div><div class="input-row form-textarea-group"><label class="input-row__label" for="13-application-note">Brief note <span class="field-optional">Optional</span></label><textarea class="input-row__control" name="note" id="13-application-note"></textarea><span class="field-error" data-error-for="note"></span><small class="field-help">Tell us which roles and types of work interest you.</small></div><div class="replica-consent"><input type="checkbox" name="consent" id="13-application-consent" required=""><label for="13-application-consent">I agree to the use of my submitted information for recruitment consideration.</label><span class="field-error" data-error-for="consent"></span></div><p><a class="privacy-preview-link" href="/replicas/signal/15-privacy.html" data-page-id="15-privacy">Read the Privacy Notice</a></p><div class="form-preview-result" role="status" aria-live="polite"></div><button class="button buttons-bar__button theme-color-1" type="submit">Share your résumé</button></form><div class="replica-oracle-guidance"><h2 class="heading">Before you submit.</h2><p><strong>Check Your Details</strong> Review your name and contact information.</p><p><strong>Review Your Résumé</strong> Choose the intended document. For a live flow, approved formats and size limits must be shown beside the upload field.</p><p><strong>Read the Notice</strong> Review how the submitted information is described in the approved privacy notice.</p></div><a class="button buttons-bar__button" href="/replicas/signal/06-careers.html" data-page-id="06-careers">Back to Careers</a></div></div>
+</main>
+            </div>
+
+            
+        </div>
+
+        
+
+
+        
+<footer class="app__custom-footer">
+    
+
+    
+    <div data-bind="template: { name: 'custom-footer' }">
+            <footer class="custom-footer ">
+        <div class="footer-logo">
+            <a href="/replicas/signal/02-services.html" data-page-id="02-services">
+                <span class="artechs-wordmark" data-own-copy="true">ARTECHS USA</span>
+            </a>
+        </div>
+        <ul class="footer-links-container">
+            <ul class="footer-list jobs">
+                <li class="jobs__item">
+                    <a href="/replicas/signal/05-about.html" data-page-id="05-about">About us</a>
+                </li>
+                <li class="jobs__item">
+                    <a href="/replicas/signal/05-about.html" data-page-id="05-about">Locations</a>
+                </li>
+                <li class="jobs__item">
+                    <a href="/replicas/signal/02-services.html" data-page-id="02-services">Growth</a>
+                </li>
+                <li class="jobs__item">
+                    <a href="/replicas/signal/18-resources.html" data-page-id="18-resources">Our events</a>
+                </li>
+                <li class="jobs__item">
+                    <a href="/replicas/signal/02-services.html" data-page-id="02-services">Artechs USA</a>
+                </li>
+            </ul>
+            <ul class="footer-list">
+                <li class="footer__item footer__item--facebook">
+                    <div class="footer__item">
+                        <img class="footer__icon" alt="facebook" src="/replicas/signal/assets/6fb7f473ddec1b.bin" loading="eager" decoding="async">
+                        Facebook: &nbsp;
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Global</a>
+                    </div>
+                    <div class="facebook-links">
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                        <br>
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                        <br>
+                        <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Our approach</a>
+                    </div>
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" alt="Instagram" src="/replicas/signal/assets/b0dbf0e5f5e5d3.bin" loading="eager" decoding="async">
+                    <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Instagram</a>
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" alt="Linkedin" src="/replicas/signal/assets/78c0e1496a504d.bin" loading="eager" decoding="async">
+                    <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Linkedin</a>
+                </li>
+                <li class="footer__item">
+                    <img class="footer__icon" alt="Youtube" src="/replicas/signal/assets/f6ed9e7dbd1693.bin" loading="eager" decoding="async">
+                    <a href="/replicas/signal/02-services.html" rel="noopener" data-page-id="02-services">Youtube</a>
+                </li>
+            </ul>
+            <div class="footer-copyright">
+                <p data-own-copy="true">Technology scope and specialist skills, defined around your requirements.</p>
+                <p>All rights reserved.</p>
+                <p>
+                    <a href="/replicas/signal/02-services.html" data-page-id="02-services">Terms &amp; Privacy</a>
+                </p>
+            </div>
+        
+    </ul></footer></div>
+    
+</footer>
+
+
+    </div>
+    <ai-assistant-container>
+</ai-assistant-container>
+</div>
+
+
+
+
+<div class="app-menu font-family-secondary" role="dialog" data-bind="
+                boolAttr: {'aria-hidden': !isVisible()},
+                a11y.keysHandler: {keys: 'esc', handler: close},
+                a11y.setInitialFocus: {isVisible: isVisible, delay: 600, focusOn: focusOn},
+                a11y.trapFocus,
+                i18nAttr: { 'aria-label': 'candidate-self-service.show-menu-options'}" aria-hidden="true" tabindex="-1" aria-label="Show menu options">
+    <div class="app-menu__wrapper background-color-dialog" data-bind="css: wrapperClassName">
+        <div class="app-menu__header">
+            
+            <span class="app-menu__language-filler"></span>
+            <button class="app-menu__close" data-bind="
+                    click: close,
+                    i18nAttr: { title: 'general.a11y.close-menu', 'aria-label': 'general.a11y.close-menu' }" title="Close menu" aria-label="Close menu"></button>
+        </div>
+        <div class="app-menu__content">
+            <ul class="app-menu__links" role="menu" data-bind="click: onLinkClicked.bind($component)">
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/02-services.html" data-page-id="02-services">Artechs USA</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/05-about.html" data-page-id="05-about">Our offices</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/18-resources.html" data-page-id="18-resources">Our events</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/02-services.html" data-page-id="02-services">Growth</a>
+                    
+
+                    
+                </li>
+                
+            </ul>
+
+            
+            <div class="app-menu__miscellaneous">
+                <div class="app-menu__miscellaneous-line background-color-secondary"></div>
+                <div class="app-menu__miscellaneous-list text-color-secondary">
+                    <div class="app-menu__miscellaneous-item">
+                        <internal-user-login-button params="employeeText: employeeText">
+</internal-user-login-button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="app-menu__overlay" data-bind="click: close"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div role="alert" aria-live="assertive" aria-relevant="additions" class="notifications font-family-primary" data-bind="css: { 'notifications--active': showNotifications }, a11y.setInitialFocus: { isVisible: showNotifications, focusOn: '.notifications__remove-item--focus' }" tabindex="-1">
+    
+</div>
+
+
+<minimal-dialog params="isVisible: isDialogVisible, cancelBehavior:'none', baseClass: 'session-expire-dialog', isEnableBodyClass: true">
+</minimal-dialog>
+
+
+<minimal-dialog params="isVisible: isDialogVisible">
+</minimal-dialog>
+
+
+<div role="status" class="oj-helper-hidden-accessible" aria-live="polite" aria-relevant="additions" data-bind="accessibleMessage: status"></div>
+<div role="alert" class="oj-helper-hidden-accessible" aria-live="assertive" aria-relevant="additions" data-bind="accessibleMessage: alert"></div>
+
+
+
+</div>
+                
+       
+    
+
+
+
+
+<div class="replica-oracle-menu"><div class="app-menu font-family-secondary" role="dialog" data-bind="
+                boolAttr: {'aria-hidden': !isVisible()},
+                a11y.keysHandler: {keys: 'esc', handler: close},
+                a11y.setInitialFocus: {isVisible: isVisible, delay: 600, focusOn: focusOn},
+                a11y.trapFocus,
+                i18nAttr: { 'aria-label': 'candidate-self-service.show-menu-options'}" aria-hidden="true" tabindex="-1" aria-label="Show menu options">
+    <div class="app-menu__wrapper background-color-dialog" data-bind="css: wrapperClassName">
+        <div class="app-menu__header">
+            
+            <span class="app-menu__language-filler"></span>
+            <button class="app-menu__close" data-bind="
+                    click: close,
+                    i18nAttr: { title: 'general.a11y.close-menu', 'aria-label': 'general.a11y.close-menu' }" title="Close menu" aria-label="Close menu"></button>
+        </div>
+        <div class="app-menu__content">
+            <ul class="app-menu__links" role="menu" data-bind="click: onLinkClicked.bind($component)">
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/02-services.html" data-page-id="02-services">Artechs USA</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/05-about.html" data-page-id="05-about">Our offices</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/18-resources.html" data-page-id="18-resources">Our events</a>
+                    
+
+                    
+                </li>
+                
+                <li class="app-menu__item" role="menuitem">
+                    
+                    
+                    <a data-bind="attr: { href:  link.url }, text: link.text" href="/replicas/signal/02-services.html" data-page-id="02-services">Growth</a>
+                    
+
+                    
+                </li>
+                
+            </ul>
+
+            
+            <div class="app-menu__miscellaneous">
+                <div class="app-menu__miscellaneous-line background-color-secondary"></div>
+                <div class="app-menu__miscellaneous-list text-color-secondary">
+                    <div class="app-menu__miscellaneous-item">
+                        <internal-user-login-button params="employeeText: employeeText">
+</internal-user-login-button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="app-menu__overlay" data-bind="click: close"></div>
+</div></div><dialog class="replica-dialog"><button class="replica-dialog-close" type="button" aria-label="Close details">Close</button><div class="replica-dialog-content"></div></dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/json" id="replica-page-data">{"pageId":"13-application","title":"Application / Résumé Submission","sourceName":"application","scenarios":[{"id":"healthcare-workflow","title":"Healthcare · Connect a reporting workflow","body":"A healthcare operations team has reporting spread across separate systems and needs a clearer handoff between data owners.","challenge":"Fragmented operational reporting and unclear ownership.","proposed_scope":"Review the workflow and data sources, define approved access, and scope an integration or reporting prototype.","talent_connection":"Consider a data engineer or application integration role if internal capacity is part of the requirement.","client_inputs":"Data owner approval, workflow context, privacy obligations and acceptance criteria.","href":"/contact?topic=data-ai","review_status":"example-client-review"},{"id":"finance-application","title":"Finance · Modernize an internal application","body":"A financial-services team depends on an internal application that no longer fits its reporting and integration needs.","challenge":"Legacy workflows and dependencies need to be understood before a change.","proposed_scope":"Map the application and integrations, prioritize a release and define testing, access and operational handover.","talent_connection":"Compare a defined software engagement with additional engineering or quality-assurance capacity.","client_inputs":"System ownership, risk requirements, approved environment and release responsibilities.","href":"/contact?topic=custom-software","review_status":"example-client-review"},{"id":"retail-data","title":"Retail · Connect inventory and customer data","body":"A retail team wants to understand how inventory, transactions and customer-facing applications exchange information.","challenge":"Different systems use inconsistent definitions and create manual reconciliation.","proposed_scope":"Map the data flow, agree common definitions and scope an integration or reporting improvement.","talent_connection":"Discuss data, software or cloud skills according to the systems and management model.","client_inputs":"Source-system access, data definitions, business rules and scope priorities.","href":"/contact?topic=data-ai","review_status":"example-client-review"}],"articles":[{"id":"scope-before-stack","title":"Start with the scope before choosing the stack","summary":"Five questions that connect a technology decision with the users, dependencies and operating work behind it.","category":"Technology planning","reading_label":"insight","article_body":[{"heading":"Begin with the work","body":"A platform discussion is easier to evaluate when the business requirement is clear. Identify the workflow that needs to change, the people who use it and the decision or task the system should support."},{"heading":"Map the dependencies","body":"List the applications, data sources, integrations and access owners involved. Separate what can change in the engagement from what needs another team or vendor. This gives the scope a more useful boundary than a list of technologies alone."},{"heading":"Define how the work will be reviewed","body":"Agree which requirements are essential, who will review the work and what evidence will be used at each review point. For a migration, include testing and rollback considerations. For an application, include the user workflows and acceptance criteria."},{"heading":"Plan who will operate it","body":"A delivery discussion should include documentation, operational ownership and support boundaries. These details help the business compare a defined project with a longer engagement without assuming a service level or support promise."},{"heading":"A brief to bring to the conversation","body":"Share the objective, current environment, dependencies, review criteria and team responsibilities. The details can evolve during discovery; a concise initial brief still makes the starting point clearer."}],"cta":{"label":"Discuss a Technology Requirement","href":"/contact?topic=general","style":"text"},"review_status":"example-client-review","body":"Five questions that connect a technology decision with the users, dependencies and operating work behind it.","href":"/#scope-before-stack"},{"id":"staffing-model-questions","title":"Which staffing model fits the work?","summary":"Compare additional capacity, permanent recruitment and a dedicated team by the management need they address.","category":"Technology staffing","reading_label":"insight","article_body":[{"heading":"Define the management need","body":"A useful staffing brief describes more than a job title. It explains the work, essential skills, duration, team context and who will manage priorities. Those details help distinguish an additional role from a team or permanent recruitment requirement."},{"heading":"Staff augmentation","body":"Add a defined skill or capacity to an existing team. Discuss the role, duration, supervision and working arrangement alongside delivery responsibilities."},{"heading":"Direct hire","body":"Address a permanent hiring requirement. Clarify essential criteria, selection responsibilities, employment arrangements and the recruitment scope."},{"heading":"Dedicated remote teams","body":"Shape a team around an agreed body of work. Discuss team composition, delivery ownership, management, collaboration hours and working arrangements."},{"heading":"Bring the questions together","body":"Compare the work, skills, duration, management and commercial terms before choosing a model. Screening, onboarding and employment responsibilities must be agreed rather than inferred from a marketing label."}],"cta":{"label":"Discuss a Hiring Requirement","href":"/contact?topic=staffing","style":"text"},"review_status":"example-client-review","body":"Compare additional capacity, permanent recruitment and a dedicated team by the management need they address.","href":"/#staffing-model-questions"},{"id":"candidate-introduction","title":"Make your technical experience easier to understand","summary":"A practical way to introduce your relevant work, contribution and career interests without sharing unnecessary information.","category":"Candidate guidance","reading_label":"insight","article_body":[{"heading":"Choose relevant examples","body":"Describe the work closest to the roles that interest you. Explain the problem, your contribution and the technologies or responsibilities involved. Be accurate about individual work and work completed by a team."},{"heading":"Make the role context clear","body":"For a published vacancy, read the essential criteria, working arrangement and application route. For a general-interest submission, add a short note about the role families or types of work that interest you. A general-interest submission is not an application to a specific opening."},{"heading":"Check the document","body":"Use a current résumé and confirm that the contact details and document you intend to share are correct. An approved application flow should show accepted file formats and size limits before you select the file."},{"heading":"Share only what is needed","body":"Avoid adding passwords, identity-document numbers, banking information or confidential client material to an initial introduction. Read the approved applicant privacy notice to understand the purpose and handling of the submission."},{"heading":"Understand the next step","body":"Prepare a current résumé, explain your technical contribution and choose the career path that fits your experience."}],"cta":{"label":"Explore Careers","href":"/careers","style":"text"},"review_status":"example-client-review","body":"A practical way to introduce your relevant work, contribution and career interests without sharing unnecessary information.","href":"/#candidate-introduction"}],"profile":{"title":"Technology specialist","role_family":"Cloud and application engineering","body":"Example profile content: a specialist who describes cloud configuration, application integrations and the operational handover of project work.","profile_type":"profile format","real_person":false,"available_candidate":false,"skills":["Cloud configuration","Application integration","Version control","Deployment documentation"],"work_example":"Explain the systems involved, your responsibilities and how the team reviewed the change.","evaluation_note":"Actual skills, availability, work arrangement and screening must be verified for each candidate.","image_label":"Technology and people","href":"/staffing","review_status":"example-client-review"},"forms":{"business-enquiry":{"id":"business-enquiry","title":"Send an inquiry","status":"","submit_label":"Start a conversation","privacy_link":{"label":"Read the Privacy Notice","href":"/privacy","style":"text"},"fields":[{"name":"full_name","label":"Name","type":"text","required":true,"value":"","autocomplete":"name"},{"name":"work_email","label":"Work email","type":"email","required":true,"value":"","autocomplete":"email"},{"name":"company","label":"Company","type":"text","required":false,"value":"","optional_label":"Optional","autocomplete":"organization"},{"name":"enquiry_type","label":"Inquiry type","type":"select","required":true,"value":"","placeholder":"Choose a topic","options":["General Inquiry","Cloud","Data & AI","Custom Software","Managed IT","Staffing"]},{"name":"message","label":"Your message","type":"textarea","required":true,"value":"","help":"Share your objective, technical context and any timing or team requirements."},{"name":"consent","label":"I agree to the use of the information I submit to respond to this enquiry.","type":"checkbox","required":true,"checked":false}],"states":{"required_error":"Complete this required field.","email_error":"Enter a valid email address.","submitting":"Checking your details…","server_error":"Check the highlighted fields and try again.","success":"Continue exploring technology services, staffing and career paths."},"review_only_notes":["","No form destination, mailbox, phone, address or turnaround time is assumed.",""],"review_status":"design-state","preview_submit_label":"Start a conversation","preview_success":"Continue exploring technology services, staffing and career paths.","preview_error":"Check the required fields to continue.","validation_messages":{"full_name":"Enter your name.","work_email":"Enter a valid work email address.","enquiry_type":"Choose an inquiry type.","message":"Add a brief message about your requirement.","consent":"Confirm the stated use of your information to continue."},"backend_required_before_publication":true},"resume-submission":{"id":"resume-submission","title":"Share your résumé","status":"","mode":"general_interest","submit_label":"Share your résumé","privacy_link":{"label":"Read the Privacy Notice","href":"/privacy","style":"text"},"fields":[{"name":"full_name","label":"Full name","type":"text","required":true,"value":"","autocomplete":"name"},{"name":"email","label":"Email","type":"email","required":true,"value":"","autocomplete":"email"},{"name":"phone","label":"Phone","type":"tel","required":false,"value":"","optional_label":"Optional","autocomplete":"tel"},{"name":"location","label":"Current location","type":"text","required":false,"value":"","optional_label":"Optional"},{"name":"resume","label":"Résumé","type":"file","required":true,"value":"","button_label":"Choose Résumé","help":"Choose the résumé file you want to share.","accepted_file_types":[],"maximum_file_size":null},{"name":"note","label":"Brief note","type":"textarea","required":false,"value":"","optional_label":"Optional","help":"Tell us which roles and types of work interest you."},{"name":"consent","label":"I agree to the use of my submitted information for recruitment consideration.","type":"checkbox","required":true,"checked":false}],"states":{"required_error":"Complete this required field.","email_error":"Enter a valid email address.","selected_file":"Selected file — website only","invalid_file":"Review the file selection. Production file rules need approval.","oversized_file":"The production file-size limit needs approval.","submitting":"Checking your details…","server_error":"Check the highlighted fields and try again.","success":"Continue exploring technology services, staffing and career paths."},"review_only_notes":["Accepted file formats and maximum size remain unapproved; do not invent a value in the mockup.","",""],"approved_role_variant":{"available":false,"submit_label":"Submit Application","role_title":"Technology career path"},"review_status":"design-state","preview_submit_label":"Share your résumé","preview_success":"Continue exploring technology services, staffing and career paths.","preview_error":"Check the required fields to continue.","validation_messages":{"full_name":"Enter your full name.","email":"Enter a valid email address.","resume":"Choose a résumé file to continue.","consent":"Confirm the stated recruitment use of your information to continue."},"backend_required_before_publication":true}},"pages":[{"id":"01-home","title":"Home","route":"/"},{"id":"02-services","title":"Services","route":"/services"},{"id":"03-staffing","title":"Staffing","route":"/staffing"},{"id":"04-industries","title":"Industries","route":"/industries"},{"id":"05-about","title":"About","route":"/about"},{"id":"06-careers","title":"Careers","route":"/careers"},{"id":"07-contact","title":"Contact","route":"/contact"},{"id":"08-cloud","title":"Cloud","route":"/services/cloud"},{"id":"09-data-ai","title":"Data & AI","route":"/services/data-ai"},{"id":"10-custom-software","title":"Custom Software","route":"/services/custom-software"},{"id":"11-managed-it","title":"Managed IT","route":"/services/managed-it"},{"id":"12-job-detail","title":"Cloud Engineering","route":"/careers/[approved-slug]"},{"id":"13-application","title":"Share your résumé","route":"/careers/apply"},{"id":"14-thank-you","title":"Continue exploring","route":"/thank-you"},{"id":"15-privacy","title":"Privacy Notice","route":"/privacy"},{"id":"16-terms","title":"Website Terms","route":"/terms"},{"id":"17-404","title":"Page Not Found","route":"/404"},{"id":"18-resources","title":"Resources","route":"/resources"},{"id":"19-case-healthcare","title":"Healthcare · Connect a reporting workflow","route":"/scenarios/healthcare-workflow"},{"id":"20-case-finance","title":"Finance · Modernize an internal application","route":"/scenarios/finance-application"},{"id":"21-case-retail","title":"Retail · Connect inventory and customer data","route":"/scenarios/retail-data"},{"id":"22-insight-technology","title":"Start with the scope before choosing the stack","route":"/insights/scope-before-stack"},{"id":"23-insight-staffing","title":"Which staffing model fits the work?","route":"/insights/staffing-model-questions"},{"id":"24-insight-careers","title":"Make your technical experience easier to understand","route":"/insights/candidate-introduction"}]}</script>
+<script src="/replicas/signal/assets/a3133eb07bfae9.js"></script>
+<script src="/replicas/signal/assets/484c1cf960e411.js"></script>
+<script src="/replicas/signal/assets/317ef0b6a1da2d.js"></script>
+<script src="/replicas/signal/assets/96d6b1bcd7a87e.js"></script>
+<script src="/replicas/signal/assets/5784aabf7fd27f.js"></script>
+<script src="/replicas/signal/runtime.js"></script>
+<script src="/replicas/signal/chat-host.js"></script>
+<script src="/replicas/signal/motion-polish.js"></script>
+<script src="/replicas/signal/mobile-approach.js"></script>
+<script src="/replicas/signal/hero-media.js"></script></body></html>

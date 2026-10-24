@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 58 58">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .1;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1669e0;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #afccf3;
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-562.78" y1="267.36" x2="-531.94" y2="263.61" gradientTransform="translate(564 294) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39b2ff" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#1a7aff" stop-opacity=".5"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="1"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="map_radius_my_location" data-name="map radius my location">
+    <g>
+      <circle class="cls-1" cx="29" cy="29" r="28.5"/>
+      <path class="cls-5" d="M29,1c15.44,0,28,12.56,28,28s-12.56,28-28,28S1,44.44,1,29,13.56,1,29,1m0-1C12.98,0,0,12.98,0,29s12.98,29,29,29,29-12.98,29-29S45.02,0,29,0h0Z"/>
+    </g>
+    <ellipse class="cls-3" cx="16.5" cy="28.5" rx="15.5" ry="12.5"/>
+    <g>
+      <circle class="cls-2" cx="29.5" cy="28.5" r="8.5"/>
+      <path class="cls-4" d="M29.5,37c-4.69,0-8.5-3.81-8.5-8.5s3.81-8.5,8.5-8.5,8.5,3.81,8.5,8.5-3.81,8.5-8.5,8.5Zm0-15c-3.58,0-6.5,2.92-6.5,6.5s2.92,6.5,6.5,6.5,6.5-2.92,6.5-6.5-2.92-6.5-6.5-6.5Z"/>
+    </g>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <g class="cls-6">
+      <circle class="cls-2" cx="29.5" cy="28.5" r="8.5"/>
+      <path class="cls-4" d="M29.5,37c-4.69,0-8.5-3.81-8.5-8.5s3.81-8.5,8.5-8.5,8.5,3.81,8.5,8.5-3.81,8.5-8.5,8.5Zm0-15c-3.58,0-6.5,2.92-6.5,6.5s2.92,6.5,6.5,6.5,6.5-2.92,6.5-6.5-2.92-6.5-6.5-6.5Z"/>
+    </g>
+  </g>
+</svg>

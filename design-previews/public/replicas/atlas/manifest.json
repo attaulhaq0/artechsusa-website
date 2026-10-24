@@ -1,0 +1,192 @@
+{
+  "design": "atlas",
+  "displayName": "Atlas",
+  "pages": [
+    {
+      "id": "01-home",
+      "title": "Home",
+      "file": "/replicas/atlas/01-home.html",
+      "initialHash": ""
+    },
+    {
+      "id": "02-services",
+      "title": "Services",
+      "file": "/replicas/atlas/02-services.html",
+      "initialHash": ""
+    },
+    {
+      "id": "03-staffing",
+      "title": "Staffing",
+      "file": "/replicas/atlas/03-staffing.html",
+      "initialHash": ""
+    },
+    {
+      "id": "04-industries",
+      "title": "Industries",
+      "file": "/replicas/atlas/04-industries.html",
+      "initialHash": ""
+    },
+    {
+      "id": "05-about",
+      "title": "About",
+      "file": "/replicas/atlas/05-about.html",
+      "initialHash": ""
+    },
+    {
+      "id": "06-careers",
+      "title": "Careers",
+      "file": "/replicas/atlas/06-careers.html",
+      "initialHash": ""
+    },
+    {
+      "id": "07-contact",
+      "title": "Contact",
+      "file": "/replicas/atlas/07-contact.html",
+      "initialHash": ""
+    },
+    {
+      "id": "08-cloud",
+      "title": "Cloud",
+      "file": "/replicas/atlas/08-cloud.html",
+      "initialHash": ""
+    },
+    {
+      "id": "09-data-ai",
+      "title": "Data & AI",
+      "file": "/replicas/atlas/09-data-ai.html",
+      "initialHash": ""
+    },
+    {
+      "id": "10-custom-software",
+      "title": "Custom Software",
+      "file": "/replicas/atlas/10-custom-software.html",
+      "initialHash": ""
+    },
+    {
+      "id": "11-managed-it",
+      "title": "Managed IT",
+      "file": "/replicas/atlas/11-managed-it.html",
+      "initialHash": ""
+    },
+    {
+      "id": "12-job-detail",
+      "title": "Cloud Engineering",
+      "file": "/replicas/atlas/12-job-detail.html",
+      "initialHash": ""
+    },
+    {
+      "id": "13-application",
+      "title": "Share your résumé",
+      "file": "/replicas/atlas/13-application.html",
+      "initialHash": ""
+    },
+    {
+      "id": "14-thank-you",
+      "title": "Continue exploring",
+      "file": "/replicas/atlas/14-thank-you.html",
+      "initialHash": ""
+    },
+    {
+      "id": "15-privacy",
+      "title": "Privacy Notice",
+      "file": "/replicas/atlas/15-privacy.html",
+      "initialHash": ""
+    },
+    {
+      "id": "16-terms",
+      "title": "Website Terms",
+      "file": "/replicas/atlas/16-terms.html",
+      "initialHash": ""
+    },
+    {
+      "id": "17-404",
+      "title": "Page Not Found",
+      "file": "/replicas/atlas/17-404.html",
+      "initialHash": ""
+    },
+    {
+      "id": "18-story",
+      "title": "Company Story",
+      "file": "/replicas/atlas/18-story.html",
+      "initialHash": ""
+    },
+    {
+      "id": "19-locations",
+      "title": "Working Locations",
+      "file": "/replicas/atlas/19-locations.html",
+      "initialHash": ""
+    },
+    {
+      "id": "20-leadership",
+      "title": "People & Expertise",
+      "file": "/replicas/atlas/20-leadership.html",
+      "initialHash": ""
+    },
+    {
+      "id": "21-partners",
+      "title": "Technology Ecosystem",
+      "file": "/replicas/atlas/21-partners.html",
+      "initialHash": ""
+    },
+    {
+      "id": "22-awards",
+      "title": "Delivery Foundations",
+      "file": "/replicas/atlas/22-awards.html",
+      "initialHash": ""
+    },
+    {
+      "id": "23-insights",
+      "title": "Insights",
+      "file": "/replicas/atlas/23-insights.html",
+      "initialHash": ""
+    },
+    {
+      "id": "24-scope-article",
+      "title": "Start with the scope before choosing the stack",
+      "file": "/replicas/atlas/24-scope-article.html",
+      "initialHash": ""
+    },
+    {
+      "id": "25-staffing-article",
+      "title": "Which staffing model fits the work?",
+      "file": "/replicas/atlas/25-staffing-article.html",
+      "initialHash": ""
+    },
+    {
+      "id": "26-experience-article",
+      "title": "Make your technical experience easier to understand",
+      "file": "/replicas/atlas/26-experience-article.html",
+      "initialHash": ""
+    },
+    {
+      "id": "27-healthcare",
+      "title": "Healthcare",
+      "file": "/replicas/atlas/27-healthcare.html",
+      "initialHash": ""
+    },
+    {
+      "id": "28-finance",
+      "title": "Finance",
+      "file": "/replicas/atlas/28-finance.html",
+      "initialHash": ""
+    },
+    {
+      "id": "29-retail",
+      "title": "Retail",
+      "file": "/replicas/atlas/29-retail.html",
+      "initialHash": ""
+    },
+    {
+      "id": "30-data-role",
+      "title": "Data Engineering",
+      "file": "/replicas/atlas/30-data-role.html",
+      "initialHash": ""
+    },
+    {
+      "id": "31-ai-insights",
+      "title": "AI & Insights",
+      "file": "/replicas/atlas/31-ai-insights.html",
+      "initialHash": ""
+    }
+  ]
+}
